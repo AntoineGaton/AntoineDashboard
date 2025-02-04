@@ -16,9 +16,9 @@ A modern, responsive portfolio website built with React and Vite, featuring dyna
 
 - **Frontend Framework**: React 18
 - **Build Tool**: Vite 5
-- **UI Framework**: React Bootstrap 
+- **UI Framework**: React Bootstrap
 - **Styling**: SCSS + Bootstrap 5
-- **Libraries**: 
+- **Libraries**:
   - Swiper for carousels
   - Chart.js for data visualization
   - Three.js for 3D graphics
@@ -34,20 +34,19 @@ git clone https://github.com/AntoineGaton/AntoineDashboardPortfolio.git
 cd AntoineDashboardPortfolio
 ```
 
-
-2. Install dependencies:
+1. Install dependencies:
 
 ```bash
 npm install
 ```
 
-3. Start development server:
+1. Start development server:
 
 ```bash
 npm run dev
 ```
 
-4. Build for production:
+1. Build for production:
 
 ```bash
 npm run build
@@ -56,7 +55,9 @@ npm run build
 ## ⚙️ Configuration
 
 ### Core Settings
+
 Edit `public/data/settings.json` to configure:
+
 - Profile information
 - Supported languages
 - Theme options
@@ -80,6 +81,7 @@ Edit `public/data/settings.json` to configure:
 ```
 
 ### Content Management
+
 All content is managed through JSON files in `public/data/sections/`:
 
 - `cover.json` - Landing page content
@@ -91,19 +93,20 @@ All content is managed through JSON files in `public/data/sections/`:
 
 ## 🎨 Customization
 
-1. **Content**: 
+1. **Content**:
    - Update JSON files in `public/data/sections/`
    - Add images to `public/images/`
    - Modify section structure in `structure.json`
 
-2. **Styling**:
+1. **Styling**:
    - Global SCSS variables in `src/styles/_variables.scss`
    - Component-specific styles in their respective `.scss` files
    - Bootstrap overrides in `src/styles/_customs.scss`
 
-3. **Adding Languages**:
+1. **Adding Languages**:
    - Add new language in `settings.json`
    - Add translations in each section's JSON file:
+
    ```json
    "locales": {
      "en": {"title": "Portfolio"},
@@ -113,7 +116,7 @@ All content is managed through JSON files in `public/data/sections/`:
 
 ## 📝 Project Structure
 
-```
+```text
 AntoineDashboardPortfolio/
 ├── public/
 │   ├── data/           # JSON content files
@@ -138,4 +141,3 @@ Contributions welcome! Please feel free to submit a Pull Request.
 ---
 
 Made with ❤️ by Antoine Gaton
-```
