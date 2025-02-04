@@ -23,103 +23,109 @@
             "items": [
                 {
                     "icon": {
-                        "img": "images/pictures/place-7.png",
+                        "img": "images/pictures/place-5.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
+
                     "dates": {
-                        "start": "03/01/2016",
-                        "end": "06/01/2018"
+                        "start": "2024",
+                        "end": "now"
                     },
                     "locales": {
                         "en": {
-                            "title": "**Backend** Developer",
-                            "info": "Sapphire Studio",
-                            "text": "Developed and maintained scalable backend systems for various clients, optimizing database performance and implementing RESTful APIs to improve application functionality.",
-                            "tags": ["PHP", "MySQL", "Laravel"]
+                            "title": "**Owner** and Lead Developer",
+                            "info": "Code Monkey Studios LLC",
+                            "text": "As the owner and lead developer of Code Monkey Studios, I lead a team of skilled professionals in the development of websites, mobile applications and internal software solutions for businesses. At Code Monkey Studios, we specialize in creating custom digital experiences to help grow our clients' businesses. My role includes managing all aspects of development from initial design and coding to deployment and post-launch support while ensuring that projects are delivered on time and meet the highest standards of quality. I also handle client communication, project management, and strategic decision-making, ensuring a smooth process from start to finish.",
+                            "tags": ["Front-End Development", "Full-Stack Development", "Mobile Development", "Custom Software", "UI/UX Design", "SEO Optimization", "Brand and Logo Design"]
+                        },
+
+                        "es": {
+                            "title": "**Propietario** y Desarrollador Principal",
+                            "info": "Code Monkey Studios LLC",
+                            "text": "Como propietario y desarrollador principal de Code Monkey Studios, lidero un equipo de profesionales especializados en el desarrollo de sitios web, aplicaciones móviles y soluciones de software internas para empresas. Nos especializamos en crear experiencias digitales personalizadas para ayudar al crecimiento de los negocios de nuestros clientes.",
+                            "tags": ["Desarrollo Front-End", "Desarrollo Full-Stack", "Desarrollo Mobile", "Software Personalizado", "Diseño UI/UX", "Optimización SEO", "Diseño de Marca y Logotipo"]
+                        }
+                    }
+
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/place-4.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "dates": {
+                        "start": "2024",
+                        "end": "now"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Freelance **Software Engineer**",
+                            "info": "Re:Edge Marketing",
+                            "text": "As a Freelance Software Engineer with Re:Edge Marketing (REM), I contributed to building innovative, data-driven and technology-powered marketing solutions that drive exceptional growth for clients. Working closely with REM's team of strategists, designers and writers, I develop scalable and cutting-edge web applications and solutions aligned with the company's customer-centric approach and commitment to excellence.",
+                            "tags": ["Front-End Development", "Full-Stack Development", "E-Commerce", "Custom Software"]
                         },
                         "es": {
-                            "title": "Desarrollador **Backend**",
-                            "info": "Sapphire Studio",
-                            "text": "Desarrollé y mantuve sistemas backend escalables para varios clientes, optimizando el rendimiento de la base de datos e implementando APIs RESTful para mejorar la funcionalidad de la aplicación.",
-                            "tags": null
+                            "title": "**Ingeniero de Software** Freelance",
+                            "info": "Re:Edge Marketing",
+                            "text": "Como Ingeniero de Software Freelance en Re:Edge Marketing (REM), contribuyo al desarrollo de soluciones de marketing innovadoras y basadas en datos que impulsan un crecimiento excepcional para los clientes.",
+                            "tags": ["Desarrollo Front-End", "Desarrollo Full-Stack", "E-Commerce", "Software Personalizado"]
                         }
                     }
                 },
+
                 {
                     "icon": {
                         "img": "images/pictures/place-3.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
+
                     "dates": {
-                        "start": "06/01/2018",
-                        "end": "12/01/2020"
+                        "start": "2022",
+                        "end": "2024"
                     },
+
                     "locales": {
                         "en": {
-                            "title": "**Full-Stack** Engineer",
-                            "info": "Coursera",
-                            "text": "Worked on enhancing the Coursera website by implementing new features and improving user experience, utilizing both frontend and backend technologies to ensure seamless functionality.",
-                            "tags": ["JavaScript", "React", "Node.js", "PHP", "REST", "Docker"]
+                            "title": "**Software** Engineer",
+                            "info": "TD",
+                            "text": "As a Software Engineer at TD, I play a crucial role in designing, developing, and maintaining innovative software solutions that enhance business processes and customer experiences. My responsibilities include building scalable applications, ensuring high code quality through rigorous testing, and collaborating with cross-functional teams to implement cutting-edge technologies. By leveraging agile methodologies, I focus on delivering robust and efficient solutions aligned with TD's commitment to innovation and customer-centricity.",
+                            "tags": ["Software Development", "Full-Stack Development", "Backend Development", "Database Management", "API Development", "Cloud Services", "DevOps"]
                         },
                         "es": {
-                            "title": "Ingeniero **Full-Stack**",
-                            "info": "Coursera",
-                            "text": "Participé en la mejora del sitio web de Coursera al implementar nuevas funcionalidades y optimizar la experiencia del usuario, utilizando tecnologías de frontend y backend para asegurar un funcionamiento sin problemas.",
-                            "tags": null
+                            "title": "**Ingeniero** de Software",
+                            "info": "TD",
+                            "text": "Como Ingeniero de Software en TD, desempeño un papel crucial en el diseño, desarrollo y mantenimiento de soluciones de software innovadoras que mejoran los procesos comerciales y las experiencias de los clientes.",
+                            "tags": ["Desarrollo de Software", "Desarrollo Full-Stack", "Desarrollo Backend", "Gestión de Base de Datos", "Desarrollo de API", "Servicios en la Nube", "DevOps"]
                         }
                     }
                 },
-
                 {
                     "icon": {
-                        "img": "images/pictures/place-1.png",
+                        "img": "images/pictures/place-2.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
                     "dates": {
-                        "start": "12/01/2020",
-                        "end": "11/01/2022"
+                        "start": "2021",
+                        "end": "2024"
                     },
-                    "locales": {
-                        "en": {
-                            "title": "**Backend** Engineer",
-                            "info": "Adobe Inc.",
-                            "text": "Contributed to the development of robust backend systems for Adobe Creative Cloud, integrating third-party services and improving data processing efficiency through cloud functions.",
-                            "tags": ["Java", "AWS", "REST", "Docker"]
-                        },
-                        "es": {
-                            "title": "Ingeniero **Backend**",
-                            "info": "Adobe Inc.",
-                            "text": "Contribuí al desarrollo de sistemas backend robustos para Adobe Creative Cloud, integrando servicios de terceros y mejorando la eficiencia en el procesamiento de datos mediante funciones en la nube.",
-                            "tags": null
-                        }
-                    }
-                },
 
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-apple",
-                        "faColors": {"bg": "#111", "fill": "#EEE"}
-                    },
-                    "dates": {
-                        "start": "12/01/2022",
-                        "end": "now"
-                    },
                     "locales": {
                         "en": {
-                            "title": "**Senior Backend** Developer",
-                            "info": "Apple Inc.",
-                            "text": "<p>Leading a team of developers to design and implement backend solutions for Apple's services, with a focus on:</p> <ul><li>Security</li><li>Scalability to handle millions of users globally</li><li>Developing RESTful APIs</li><li>Optimizing database performance with PostgreSQL</li><li>Building services with Swift, PHP, and GraphQL</li></ul> <p class='mt-3'>Together, we ensure Apple's backend infrastructure stays robust and efficient.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
+                            "title": "Teaching **Assistant**",
+                            "info": "Coding Dojo",
+                            "text": "As a Teaching Assistant at Coding Dojo, I supported aspiring developers in mastering programming languages, frameworks and software development best practices. My role included assisting students with debugging code, reviewing and providing project feedback while fostering a collaborative and inclusive learning environment. I conducted one-on-one sessions, led group discussions and provided clear and helpful feedback to help students overcome challenges and solve their logic and additional problems. I contributed to curriculum development while demonstrating coding concepts, reinforcing problem-solving strategies and ensuring students gained the confidence and skills needed to succeed in the tech industry.",
+                            "tags": ["Software Development", "Full-Stack Development", "Web Development", "Backend Development", "Database Management", "API Development", "Cloud Services"]
                         },
                         "es": {
-                            "title": "Desarrollador **Backend Senior**",
-                            "info": "Apple Inc.",
-                            "text": "<p>Liderando un equipo de desarrolladores para diseñar e implementar soluciones backend para los servicios de Apple, con enfoque en:</p> <ul><li>Seguridad</li><li>Escalabilidad para manejar millones de usuarios a nivel global</li><li>Desarrollar APIs RESTful</li><li>Optimizar el rendimiento de bases de datos con PostgreSQL</li><li>Construcción de servicios con Swift, PHP y GraphQL</li></ul> <p class='mt-3'>Juntos, aseguramos que la infraestructura backend de Apple se mantenga robusta y eficiente.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
+                            "title": "**Asistente** de Enseñanza",
+                            "info": "Coding Dojo",
+                            "text": "Como Asistente de Enseñanza en Coding Dojo, apoyé a desarrolladores aspirantes en el dominio de lenguajes de programación, frameworks y mejores prácticas de desarrollo de software.",
+                            "tags": ["Desarrollo de Software", "Desarrollo Full-Stack", "Desarrollo Web", "Desarrollo Backend", "Gestión de Base de Datos", "Desarrollo de API", "Servicios en la Nube"]
                         }
                     }
                 }
