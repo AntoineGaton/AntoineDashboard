@@ -1,0 +1,79 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+
+        "es": {
+            "title": "Educación",
+            "title_long_prefix": "Esta es mi",
+            "title_long": "**Formación** Educativa"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/place-1.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "04/01/2022",
+                        "end": "12/24/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Bachelor** in Computer Science",
+                            "info": "Colorado Technical University",
+                            "text": "Earned a Bachelor's degree in Computer Science, focusing on algorithms, data structures, software engineering, and web development. Gained hands-on experience through various projects, professional experiences and entrepreneurship.",
+                            "certificate": "/images/certificates/ctu-cs.png",
+                            "tags": ["C++", "Python", "Java", "Kotlin", "Mobile Development", "Web Development", "Software Engineering", "Data Structures", "Algorithms"]
+                        },
+                        "es": {
+                            "title": "**Licenciatura** en Ciencias de la Computación",
+                            "info": "Colorado Technical University",
+                            "text": "Obtuve una licenciatura en Ciencias de la Computación, con un enfoque en algoritmos, estructuras de datos, ingeniería de software y desarrollo web. Adquirí experiencia práctica a través de varios proyectos, experiencias profesionales y emprendimiento.",
+                            "tags": ["C++", "Python", "Java", "Kotlin", "Mobile Development", "Web Development", "Software Engineering", "Data Structures", "Algorithms"]
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/place-2.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "08/01/2021",
+                        "end": "12/01/2021"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Software and Full-Stack Development",
+                            "info": "Coding Dojo",
+                            "text": "Completed an intensive bootcamp at Coding Dojo. The program focused on full-stack development, covering essential skills like backend programming, database management, and web application deployment in Python, JavaScript, and C#. This course provided a solid foundation in modern software development practices.",
+                            "tags": ["Python", "JavaScript", "C#", "React", "Node.js", "Express", "MongoDB", "SQL", "Git", "Agile"]
+                        },
+                        "es": {
+                            "title": "Desarrollo de Software y Desarrollo Full-Stack",
+                            "info": "Coding Dojo",
+                            "text": "Completé un programa intensivo de bootcamp centrado en el desarrollo de software y full-stack, cubriendo habilidades esenciales como la programación backend, la gestión de bases de datos y el despliegue de aplicaciones web. Este curso proporcionó una base sólida en las prácticas modernas de software y desarrollo full-stack.",
+                            "tags": ["Python", "JavaScript", "C#", "React", "Node.js", "Express", "MongoDB", "SQL", "Git", "Agile"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

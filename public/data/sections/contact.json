@@ -1,0 +1,90 @@
+{
+    "locales": {
+        "en": {
+            "title": "Contact",
+            "title_long_prefix": "Don't hesitate to",
+            "title_long": "**Contact** Me"
+        },
+
+        "es": {
+            "title": "Contacto",
+            "title_long_prefix": "No dudes en",
+            "title_long": "**Contácta**me"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_form",
+            "component": "ArticleContactForm",
+            "config": {},
+            "locales": {
+                "en": {"title": "Send me a **message**"},
+                "es": {"title": "Envíame un **mensaje**"}
+            },
+
+            "items": null
+        },
+
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Or if you **prefer**..."},
+                "es": {"title": "O si **prefieres**..."}
+            },
+
+            "items": [
+                {
+                    "value": "+1 (570) 856-8090",
+                    "links": [
+                        {"href": "tel:15708568090"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-phone",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Phone"},
+                        "es": {"title": "Teléfono"}
+                    }
+                },
+
+                {
+                    "value": "swe.antoine.gaton@gmail.com",
+                    "links": [
+                        {"href": "mailto:swe.antoine.gaton@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "E-mail"},
+                        "es": {"title": "Correo electrónico"}
+                    }
+                },
+
+                {
+                    "value": "@AntoineGaton",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/antoine-gaton/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-linkedin",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Linkedin"}
+                    }
+                }
+            ]
+        }
+    ]
+}

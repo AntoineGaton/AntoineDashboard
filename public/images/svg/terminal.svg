@@ -1,0 +1,43 @@
+<svg width="200" height="160" viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg">
+  <!-- Terminal window -->
+  <rect x="10" y="10" width="180" height="140" rx="8" fill="#1e1e1e"/>
+  <rect x="10" y="10" width="180" height="30" rx="8" fill="#333333"/>
+  
+  <!-- Window buttons -->
+  <circle cx="35" cy="25" r="6" fill="#ff5f56"/>
+  <circle cx="55" cy="25" r="6" fill="#ffbd2e"/>
+  <circle cx="75" cy="25" r="6" fill="#27c93f"/>
+  
+  <!-- Command prompt symbols -->
+  <text x="30" y="65" fill="#00ff00" font-family="monospace" font-size="14">
+    <tspan>></tspan>
+  </text>
+  
+  <!-- Typing text animation -->
+  <text x="45" y="65" fill="#00ff00" font-family="monospace" font-size="14">
+    <animate
+      attributeName="textContent"
+      values="W;We;Wel;Welc;Welco;Welcom;Welcome"
+      dur="2s"
+      repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Blinking cursor -->
+  <rect x="45" y="70" width="8" height="2" fill="#00ff00">
+    <animate
+      attributeName="opacity"
+      values="0;1;0"
+      dur="0.8s"
+      repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Progress bar -->
+  <rect x="45" y="85" width="100" height="10" fill="none" stroke="#00ff00" stroke-width="1"/>
+  <rect x="45" y="85" height="10" fill="#00ff00">
+    <animate
+      attributeName="width"
+      values="0;20;40;60;80;100"
+      dur="3s"
+      repeatCount="indefinite"/>
+  </rect>
+</svg>

@@ -1,0 +1,313 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Antoine Gaton!**"
+        },
+
+        "es": {
+            "title": "¡Saludos!",
+            "title_menu": "Sobre mí",
+            "title_long_prefix": "Hola...",
+            "title_long": "Soy **Antoine Gaton!**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "es": {}
+            },
+
+            "items": [
+                {
+                    "value": "Fort Lauderdale – FL",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+
+                {
+                    "value": "swe.antoine.gaton@gmail.com",
+                    "links": [
+                        {"href": "mailto:swe.antoine.gaton@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                
+                {
+                    "value": "@AntoineGaton",
+                    "links": [
+                        {"href": "https://github.com/AntoineGaton"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+
+                {
+                    "value": "/in/Antoine-Gaton",
+                    "links": [
+                        {"href": "https://linkedin.com/in/antoine-gaton"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-linkedin",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**A little bit** about me..."},
+                "es": {"title": "**Un poco** sobre mí..."}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"text": "<p>I&apos;m a <strong>Software Engineer specializing in full-stack development</strong>, with over <strong>three years of experience</strong> building <strong>scalable web applications, secure APIs, and high-performance backend systems</strong>.</p><p>Beyond development, I&apos;m passionate about <strong>teaching and mentoring</strong>. I&apos;ve had the privilege of guiding <strong>300+ students</strong> in <strong>full-stack technologies</strong>, including <strong>Flask, MERN, ASP.NET Core, and Spring Boot</strong>, helping them build real-world applications and strengthen their problem-solving skills.</p><p>Currently, I&apos;m focused on <strong>enterprise-level applications</strong>, refining my expertise in <strong>mobile and web development, security best practices, and scalable architecture</strong>.</p><p>Outside of coding, you&apos;ll find me <strong>exploring new tech stacks, gaming, and brainstorming innovative software ideas</strong>.</p><p>I&apos;m always open to collaboration—let&apos;s build something amazing together! 🚀</p>"},
+
+                        "es": {"text": "<p>Soy un <strong>Ingeniero de Software especializado en desarrollo full-stack</strong>, con más de <strong>tres años de experiencia</strong> construyendo <strong>aplicaciones web escalables, API seguras y sistemas backend de alto rendimiento</strong>.</p><p>Más allá del desarrollo, me apasiona <strong>la enseñanza y la mentoría</strong>. He tenido el privilegio de guiar a <strong>más de 300 estudiantes</strong> en <strong>tecnologías full-stack</strong>, incluyendo <strong>Flask, MERN, ASP.NET Core y Spring Boot</strong>, ayudándolos a desarrollar aplicaciones del mundo real y fortalecer sus habilidades para resolver problemas.</p><p>Actualmente, me enfoco en <strong>aplicaciones a nivel empresarial</strong>, perfeccionando mi experiencia en <strong>desarrollo móvil y web, mejores prácticas de seguridad y arquitectura escalable</strong>.</p><p>Fuera del código, me encontrarás <strong>explorando nuevas tecnologías, jugando videojuegos y desarrollando ideas innovadoras de software</strong>.</p><p>Siempre estoy abierto a colaborar—¡construyamos algo increíble juntos! 🚀</p>"}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "testimonials",
+            "component": "ArticleTestimonials",
+            "config": {},
+            "locales": {
+                "en": {"title": "Professional **testimonials**"},
+                "es": {"title": "Testimonios de **profesionales**"}
+            },
+
+            "items": [
+                {
+                    "value": "Spencer Rauch",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/spencer-rauch/"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-1.png",
+                        "fa": "fa-solid fa-user",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Instructor at <b>Coding Dojo</b>",
+                            "text": "Antoine served as a teaching assistant while I was an instructor. He is knowledgeable, professional and easy to work with. Antoine&apos;s commitment to growth in both himself and those around him would make him an asset to any team."
+                        },
+                        "es": {
+                            "info": "Instructor en <b>Coding Dojo</b>",
+                            "text": "Antoine sirvió como asistente de enseñanza mientras yo era instructor. Es conocido, profesional y fácil de trabajar. Su compromiso con el crecimiento en sí mismo y en aquellos que lo rodean lo haría un activo para cualquier equipo."
+                        }
+                    }
+                },
+
+                {
+                    "value": "Wesley McElhinny",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/wesley-mcelhinny/"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-2.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Capstone Partner at <b>Colorado Technical University</b>",
+                            "text": "I had the privilege of working with Antoine on our computer science capstone project at CTU, where he was an instrumental member of our team. Antoine demonstrated exceptional leadership by driving the development efforts and mentoring me in programming stacks that were new to me. His technical expertise, coupled with his ability to uplift and support those around him, is truly remarkable. Antoine's work ethic is second to none. He consistently approaches challenges with determination and a solutions-oriented mindset. Beyond his technical skills, he is highly dependable, ensuring that every commitment he makes is fulfilled with excellence. His combination of technical proficiency, leadership, and reliability makes him an invaluable asset to any organization. It was an honor to collaborate with someone of his caliber, and I have no doubt that he will continue to achieve great success in his career. Any organization would be fortunate to have Antoine on their team."
+                        },
+                        "es": {
+                            "info": "Socio Culminante en <b>Colorado Technical University</b>",
+                            "text": "Tuve el privilegio de trabajar con Antoine en nuestro proyecto de capstone de ciencias de la computación en CTU, donde fue un miembro instrumental de nuestro equipo. Antoine demostró un liderazgo excepcional al impulsar los esfuerzos de desarrollo y mentorizarme en pilas de programación que eran nuevas para mí. Su expertise técnica, combinada con su capacidad de alentar y apoyar a aquellos que lo rodean, es realmente destacable. Antoine tiene un trabajo de equipo excepcional. Siempre aborda desafíos con determinación y una mentalidad orientada a soluciones. Más allá de sus habilidades técnicas, es altamente dependiente, asegurando que cada compromiso que hace se cumpla con excelencia. Su combinación de habilidades técnicas, liderazgo y confiabilidad lo convierte en un activo invaluable para cualquier organización. Fue un honor colaborar con alguien de su calibre, y no tengo dudas de que continuará logrando grandes éxitos en su carrera. Cualquier organización tendría la suerte de tener a Antoine en su equipo."
+                        }
+                    }
+                },
+
+                {
+                    "value": "Abrar Hussain",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/abrar-hussain00/"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-5.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Student and Mentee at <b>Coding Dojo</b>",
+                            "text": "I had the privilege of working with Antoine during my coding journey, and he was one of the best TAs and mentors I’ve had in helping me grow and begin my path as a software developer. His technical knowledge, problem-solving skills, and approachable demeanor made him an incredible resource for me and many other starting developers. Antoine consistently went above and beyond to ensure I understood complex concepts, breaking them down in a way that was clear, actionable, and easy to follow. His passion for technology and dedication to helping others succeed were truly inspiring. I’m confident that Antoine’s technical expertise, collaborative spirit, and commitment to excellence will make him a valuable asset to any team."
+                        },
+                        "es": {
+                            "info": "Estudiante y Aprendiz en <b>Coding Dojo</b>",
+                            "text": "Tuve el privilegio de trabajar con Antoine durante mi viaje de codificación, y fue uno de los mejores TAs y mentores que he tenido en ayudarme a crecer y comenzar mi camino como desarrollador de software. Su conocimiento técnico, habilidades para resolver problemas y actitud abierta lo convirtieron en un recurso increíble para mí y muchos otros desarrolladores principiantes. Antoine siempre fue más allá de lo necesario para asegurarme de que entendía conceptos complejos, los descomponía de manera clara, accionable y fácil de seguir. Su pasión por la tecnología y su dedicación a ayudar a otros a tener éxito fueron realmente inspiradores. Estoy segura de que las habilidades técnicas de Antoine, su espíritu colaborativo y su compromiso con la excelencia lo convertirán en un activo valioso para cualquier equipo."
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Personal **interests**"},
+                "es": { "title": "Intereses **personales**" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-gamepad",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Gaming",
+                            "info": "I enjoy playing story-driven games. Currently playing Spider-Man 2."
+                        },
+                        "es": {
+                            "title": "Jugar videojuegos",
+                            "info": "Disfruto jugando videojuegos de historia. Actualmente juego Spider-Man 2."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-laptop-code",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Tech and Software Development",
+                            "info": "I enjoy learning about new technologies and software development. Currently building my first SaaS product."
+                        },
+                        "es": {
+                            "title": "Desarrollo de software y tecnologías",
+                            "info": "Disfruto aprendiendo sobre nuevas tecnologías y desarrollo de software. Actualmente estoy construyendo mi primer producto SaaS."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-utensils",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Cooking and Food",
+                            "info": "I enjoy cooking and trying new recipes. Currently cooking a lot of food from different cultures and expanding my culinary skills."
+                        },
+                        "es": {
+                            "title": "Cocina y Comida",
+                            "info": "Disfruto cocinar y probar nuevos platos. Actualmente cocino mucha comida de diferentes culturas y expandiendo mis habilidades culinarias."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-film",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Movies & TV Shows",
+                            "info": "I'm a movie buff and enjoy a good horror movie. A24 is my favorite movie studio and currently I've watched Nosferatu and watching Severance."
+                        },
+                        "es": {
+                            "title": "Películas y Series",
+                            "info": "Soy un fan de las películas y disfruto de una buena película de terror. A24 es mi estudio de cine favorito y actualmente estoy viendo Nosferatu y Severance."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-book",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Teaching & Mentorship",
+                            "info": "I enjoy teaching and mentoring others. Currently mentoring a couple of former students in their coding journey."
+                        },
+                        "es": {
+                            "title": "Enseñanza y Mentoría",
+                            "info": "Disfruto enseñar y mentorizar a otros. Actualmente mentorizo a un par de ex-estudiantes en su viaje de codificación."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-plane",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Travel & Exploration",
+                            "info": "I enjoy traveling and exploring new places. Last place I visited was Disneyland. Currently planning a trip to Europe and Japan."
+                        },
+                        "es": {
+                            "title": "Viajar y Explorar",
+                            "info": "Disfruto viajar y explorar nuevos lugares. El último lugar que visité fue Disneyland. Actualmente estoy planeando un viaje a Europa y Japón."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
