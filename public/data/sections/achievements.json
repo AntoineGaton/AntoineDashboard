@@ -22,9 +22,7 @@
             "config": {},
             "locales": {
                 "en": { "title": "Certifications" },
-                "es": { "title": "Certificaciones" },
-                "fr": { "title": "Certifications" },
-                "ko": { "title": "인증서" }
+                "es": { "title": "Certificaciones" }
             },
 
             "items": [
@@ -153,9 +151,7 @@
             "config": {},
             "locales": {
                 "en": { "title": "Awards" },
-                "es": { "title": "Premios" },
-                "fr": { "title": "Récompenses" },
-                "ko": { "title": "수상 내역" }
+                "es": { "title": "Premios" }
             },
 
             "items": [

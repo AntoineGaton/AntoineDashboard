@@ -36,13 +36,6 @@
         },
 
         {
-            "id": "achievements",
-            "categoryId": "showcase",
-            "jsonPath": "/data/sections/achievements.json",
-            "faIcon": "fa-solid fa-award"
-        },
-
-        {
             "id": "updates",
             "categoryId": "more",
             "jsonPath": "/data/sections/updates.json",

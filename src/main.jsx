@@ -1,12 +1,3 @@
-/*
-    This is the main entry point for the application.
-    It is responsible for rendering the root component and providing the necessary context.
-    It also handles the preloader and the app providers.
-
-    TODO:
-    - Add a preloader video
-*/
-
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 

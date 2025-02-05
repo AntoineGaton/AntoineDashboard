@@ -1,7 +1,7 @@
 @import "/src/styles/extend";
 
 #confirmation-modal {
-    align-items: start;
+    align-items: center;
     justify-content: center;
 
     .custom-modal-window {
@@ -32,4 +32,23 @@
             pointer-events: none;
         }
     }
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+
+.modal-window {
+    position: relative;
+    max-width: 90%;
+    max-height: 90vh;
+    margin: auto;
 }
