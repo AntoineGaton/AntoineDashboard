@@ -30,7 +30,7 @@ function LanguagePicker({shrink}) {
                                 availableOptions={availableLanguages.map(_toDropdownOption)}
                                 onOptionSelected={_onOptionSelected}
                                 size={2}
-                                tooltip={null}
+                                tooltip={selectedLanguage.name}
                                 alwaysForceDropdown={true}
                                 shrink={shrink}/>
             )}

@@ -967,16 +967,20 @@
       <g
          id="g3169"
          transform="translate(-666.96165,-142.41134)">
+        
+        <!-- CHANGE COLOR HERE -->
         <path
            d="m 756.208,262.49431 0,38.87048 91.6271,30.04143 -91.6271,29.45241 0,37.60856 136.6315,-47.75051 0.6093,-37.31587 -137.2408,-50.9065 z"
            inkscape:connector-curvature="0"
            id="path3213"
-           style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#73d216;fill-opacity:1;stroke:none;display:inline;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica Bold" />
+           style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#dc2626;fill-opacity:1;stroke:none;display:inline;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica Bold" />
+         
+         <!-- CHANGE COLOR HERE -->
         <path
            d="m 954.3532,494.29342 0,40.03495 135.3621,0 0,-40.03495 -135.3621,0 z"
            inkscape:connector-curvature="0"
            id="path3557"
-           style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#73d216;fill-opacity:1;stroke:none;display:inline;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica Bold" />
+           style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#dc2626;fill-opacity:1;stroke:none;display:inline;font-family:MgOpen Canonica;-inkscape-font-specification:MgOpen Canonica Bold" />
       </g>
     </g>
     <g
