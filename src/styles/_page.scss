@@ -86,24 +86,27 @@ body.body-no-scroll {
   }
 
   .resume-actions {
-    text-align: center;
-    margin-top: -1rem;
-  }
+    margin-top: 2rem;
 
-  .download-button {
-    display: inline-block;
-    padding: 1rem 2rem;
-    background: var(--primary-color);
-    color: var(--text-light);
-    border-radius: 4px;
-    text-decoration: none;
-    transition: background 0.3s ease;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    .send-message-btn {
+      background: var(--theme-highlight-1);
+      border: none;
+      color: white;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      transition: all 0.3s ease;
+      min-width: 200px;
 
-    &:hover {
-      background: var(--primary-color-dark);
+      i {
+        margin-right: 8px;
+      }
+
+      &:hover {
+        background: var(--theme-highlight-2);
+        transform: translateY(-2px);
+      }
     }
   }
 }

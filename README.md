@@ -12,6 +12,99 @@ A modern, responsive portfolio website built with React and Vite, featuring dyna
 - 📈 **Interactive Components** (Swiper, Chart.js, Three.js)
 - ✉️ **Contact Form** with EmailJS integration
 
+## 🔄 Application Flow
+
+The application follows a hierarchical component structure for rendering content:
+
+### Core Rendering Flow
+
+1. **Entry Point (`App.jsx`)**
+   - Initializes core application wrapper
+   - Sets up feedback systems (notifications, modals, spinners)
+   - Renders main `Portfolio` component
+   - Manages image caching through `ImageCache`
+
+2. **Portfolio Layout (`Portfolio.jsx`)**
+   - Manages the main layout structure
+   - Handles navigation sidebar
+   - Controls section rendering through `MainSlider`
+   - Manages mobile/desktop navigation components
+
+3. **Section Management (`MainSlider.jsx`)**
+   - Renders individual sections based on JSON configuration
+   - Handles section transitions and animations
+   - Manages section visibility and loading states
+
+4. **Section Component (`Section.jsx`)**
+   - Renders individual section content
+   - Manages section header and content layout
+   - Controls section transitions and scrolling behavior
+   - Maps article components based on configuration
+
+### Data Flow
+
+1. **JSON Configuration**
+   ```
+   public/data/
+   ├── settings.json       # Global settings
+   ├── structure.json      # Section structure
+   └── sections/          
+       ├── cover.json      # Section-specific content
+       ├── experience.json
+       └── ...
+   ```
+
+2. **Provider Chain**
+   ```
+   DataProvider
+   └── LanguageProvider
+       └── FeedbacksProvider
+           └── WindowProvider
+               └── ThemeProvider
+                   └── GlobalStateProvider
+   ```
+
+3. **Section Rendering Process**
+   - `structure.json` defines section order and configuration
+   - Each section loads content from corresponding JSON file
+   - Content is processed through providers for:
+     - Language localization
+     - Theme application
+     - Responsive layout
+     - State management
+
+### Component Hierarchy
+
+```
+App
+├── AppFeedbacks (Modals, Notifications)
+├── ImageCache
+└── Portfolio
+    ├── NavSidebar (Desktop)
+    ├── NavHeaderMobile (Mobile)
+    ├── MainSlider
+    │   └── Section
+    │       ├── SectionHeader
+    │       └── SectionContent
+    │           └── ArticleComponent
+    └── NavTabController (Mobile)
+```
+
+### State Management
+
+- **Global State**: Manages active section, navigation state
+- **Window Provider**: Handles responsive breakpoints, device detection
+- **Language Provider**: Manages translations and language switching
+- **Feedback Provider**: Controls modals, notifications, loading states
+- **Theme Provider**: Manages light/dark theme switching
+
+This architecture allows for:
+- Dynamic content management through JSON
+- Seamless section transitions
+- Responsive layout adaptation
+- Multi-language support
+- Theme customization
+
 ## 💻 Tech Stack
 
 - **Frontend Framework**: React 18

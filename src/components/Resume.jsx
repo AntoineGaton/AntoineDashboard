@@ -26,33 +26,29 @@ const Resume = ({ data }) => {
     <div className="resume-content">
       <div className="resume-preview">
         {isLoading && <div className="loading">Loading PDF...</div>}
-        {isProduction ? (
-          <iframe
-            src={`https://docs.google.com/gview?url=${encodeURIComponent(fullPdfUrl)}&embedded=true`}
-            width="100%"
-            height="600px"
-            className="resume-viewer"
-            frameBorder="0"
-            onLoad={() => setIsLoading(false)}
-          />
-        ) : (
-          <embed
-            src={resumeData.resumeFile}
-            type="application/pdf"
-            width="100%"
-            height="600px"
-            className="resume-viewer"
-          />
-        )}
+        <iframe
+          src={isProduction 
+            ? `https://docs.google.com/gview?url=${encodeURIComponent(fullPdfUrl)}&embedded=true`
+            : `${resumeData.resumeFile}#view=FitH`
+          }
+          width="100%"
+          height="450px"
+          className="resume-viewer"
+          frameBorder="0"
+          onLoad={() => setIsLoading(false)}
+
+        />
       </div>
-      <div className="resume-actions">
-        <a
-          href={resumeData.resumeFile}
-          download={fileName}
-          className="download-button"
+      <div className="resume-actions d-flex justify-content-center mt-4">
+        <button 
+          className="btn btn-highlight rounded-pill px-4 py-3 send-message-btn" 
+          onClick={() => window.open(resumeData.resumeFile, '_blank')}
+
         >
-          View and Download
-        </a>
+          <i className="fa-solid fa-file-pdf"></i>
+          {' '}
+          VIEW RESUME
+        </button>
       </div>
     </div>
   );
