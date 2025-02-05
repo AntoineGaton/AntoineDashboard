@@ -98,7 +98,7 @@ $light: $text-light;
     --theme-white: #{$text-light};
 
     // Backgrounds
-    --theme-bg: url('/images/css/bg-dark.jpg');
+    --theme-bg: url('/images/css/bg-dark.jpg'); // CHANGE IMAGE HERE FOR DARK THEME
     --theme-bg-color: #{$dark-bg-primary};
     --theme-section-background: #{$dark-bg-secondary};
     --theme-section-background-opacity: rgba(17, 17, 17, 0.95);
@@ -153,7 +153,7 @@ $light: $text-light;
     --theme-white: #{$light-bg-primary};
 
     // Backgrounds
-    --theme-bg: url('/images/css/bg-light.png');
+    --theme-bg: url('/images/css/bg-light.jpg'); // CHANGE IMAGE HERE FOR LIGHT THEME
     --theme-bg-color: #{$light-bg-primary};
     --theme-section-background: #{$light-bg-secondary};
     --theme-section-background-opacity: rgba(249, 250, 251, 0.9);
@@ -185,8 +185,8 @@ $light: $text-light;
     background-repeat: no-repeat;
 }
 
-.bg-green {
-    background-image: url('/images/css/bg-green.png');
+.bg-light {
+    background-image: url('/images/css/bg-light.jpg');
     background-size: cover;
     background-position: center;
 }
