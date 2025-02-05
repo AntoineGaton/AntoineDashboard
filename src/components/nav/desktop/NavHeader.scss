@@ -10,6 +10,7 @@ header.nav-header {
     .img-view-avatar {
         border: 6px solid var(--theme-nav-light);
         border-radius: calc($standard-border-radius * 2);
+        transition: all 0.3s ease-in-out;
 
         width: 140px;
         height: 140px;
@@ -44,6 +45,10 @@ header.nav-header {
     .img-view-logo {
         width: 32px;
         height: 24px;
+    }
+
+    .info {
+        transition: opacity 0.2s ease-in-out;
     }
 
     @media (max-height:690px) {
@@ -86,7 +91,10 @@ header.nav-header {
 
     &-shrink {
         .info {
-            display: none;
+            opacity: 0;
+            visibility: hidden;
+            height: 0;
+            margin: 0;
         }
 
         .status-badge {

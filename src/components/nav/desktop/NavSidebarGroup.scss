@@ -5,6 +5,7 @@
     flex-direction: column;
     width: 100%;
     direction: rtl;
+    transition: all 0.3s ease-in-out;
 
     .nav-sidebar-group-item {
         direction: ltr;
@@ -19,6 +20,7 @@
 .nav-sidebar-group-horizontal {
     display: flex;
     padding: 0 1rem;
+    transition: padding 0.3s ease-in-out;
 
     .nav-sidebar-group-item {
         width: 100%;

@@ -9,6 +9,7 @@ div.sidebar {
     position: relative;
     display: flex;
     flex-direction: column;
+    transition: width 0.3s ease-in-out, min-width 0.3s ease-in-out;
 
     @include media-breakpoint-down($sidebar-min-breakpoint) {
         display: none;
@@ -18,6 +19,7 @@ div.sidebar {
         position: absolute;
         right: -15px;
         top: 65px;
+        transition: transform 0.3s ease-in-out;
     }
 }
 
@@ -26,6 +28,10 @@ div.sidebar {
     flex-direction: column;
     height: 100%;
     border-radius: $standard-border-radius;
+
+    .info {
+        transition: opacity 0.2s ease-in-out;
+    }
 }
 
 div.sidebar-shrink {
@@ -35,6 +41,7 @@ div.sidebar-shrink {
     .btn-toggle {
         top: 45px;
         right: -15px;
+        transform: rotate(180deg);
     }
 
     .fullscreen-toggle {
