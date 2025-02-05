@@ -1,3 +1,35 @@
+/** ----------- THEME COLORS (Easy to customize) ------------ **/
+// Primary brand color and its variants
+$brand-color: #dc2626;          // Main brand color (Red)
+$brand-color-light: #ef4444;    // Lighter shade
+$brand-color-lighter: #f87171;  // Even lighter shade
+$brand-color-dark: #991b1b;     // Darker shade
+
+// Dark theme colors
+$dark-bg-primary: #0a0a0a;      // Darkest background
+$dark-bg-secondary: #111111;    // Slightly lighter background
+$dark-bg-tertiary: #141414;     // Even lighter background
+$dark-bg-quaternary: #171717;   // Lightest dark background
+
+// Light theme colors
+$light-bg-primary: #ffffff;     // Main light background
+$light-bg-secondary: #f3f4f6;   // Slightly darker
+$light-bg-tertiary: #e5e7eb;    // Even darker
+$light-bg-quaternary: #d1d5db;  // Darkest light background
+
+// Text colors
+$text-light: #EEEEEE;          // Light text
+$text-light-muted: #D1D1D1;    // Muted light text
+$text-dark: #1f2937;           // Dark text
+$text-dark-muted: #6c757d;     // Muted dark text
+
+// Scrollbar colors
+$scrollbar-dark: #262626;
+$scrollbar-light: #9ca3af;
+
+// Loader background
+$loader-background-color: $dark-bg-primary;
+
 /** ----------- FONTS ------------ **/
 $font-family-base: 'Lato', sans-serif;
 $headings-font-family: 'Orbitron', sans-serif;
@@ -24,113 +56,128 @@ $standard-border-radius: 10px;
 $layout-blocks-spacing: 0.5rem;
 $sidebar-min-breakpoint: md;
 
-/** ----------- COLORS ----------- **/
+/** ----------- BOOTSTRAP OVERRIDES ----------- **/
+$primary: $brand-color;
+$secondary: $text-dark-muted;
+$dark: $dark-bg-primary;
+$light: $text-light;
 
-/** COLORS - overriding bootstrap colors **/
-$primary: #36ec65;
-$secondary: #6c757d;
-$dark: #111;
-$light: #EEE;
-
-/** COLORS - static **/
-$loader-background-color: #111111;
-
+/** ----------- THEME VARIABLES ----------- **/
 :root {
     --mobile-layout-breakpoint: md;
 }
 
 /** COLORS - dark theme palette **/
 :root {
-    --theme-main: #111111;
-    --theme-main-2: #1A1A1A;
-    --theme-main-3: #1C1C1C;
-    --theme-main-4: #1f1f1f;
+    // Main backgrounds
+    --theme-main: #{$dark-bg-primary};
+    --theme-main-2: #{$dark-bg-secondary};
+    --theme-main-3: #{$dark-bg-tertiary};
+    --theme-main-4: #{$dark-bg-quaternary};
 
-    --theme-secondary: #EEEEEE;
-    --theme-secondary-2: #D1D1D1;
+    // Text colors
+    --theme-secondary: #{$text-light};
+    --theme-secondary-2: #{$text-light-muted};
     --theme-secondary-3: #bbbbbb;
     --theme-secondary-4: #9f9f9f;
 
-    --theme-soft: #212121;
-    --theme-soft-2: #252525;
-    --theme-soft-3: #292929;
+    // Soft backgrounds
+    --theme-soft: #1a1a1a;
+    --theme-soft-2: #1f1f1f;
+    --theme-soft-3: #242424;
 
-    --theme-highlight: #9dff8e;
-    --theme-highlight-2: #b5ffa9;
-    --theme-highlight-3: #d5fdcd;
+    // Brand colors
+    --theme-highlight: #{$brand-color};
+    --theme-highlight-2: #{$brand-color-light};
+    --theme-highlight-3: #{$brand-color-lighter};
 
-    --theme-dark: #101010;
-    --theme-dark-opacity: rgba(16, 16, 16, 0.2);
-    --theme-muted: #6c757d;
-    --theme-white: #EEE;
+    // Other colors
+    --theme-dark: #{$dark-bg-primary};
+    --theme-dark-opacity: rgba(10, 10, 10, 0.2);
+    --theme-muted: #{$text-dark-muted};
+    --theme-white: #{$text-light};
 
+    // Backgrounds
     --theme-bg: url('/images/css/bg-dark.jpg');
-    --theme-bg-color: #1C1C1C;
-    --theme-section-background: #1A1A1A;
-    --theme-section-background-opacity: rgba(26, 26, 26, 0.86);
-    --theme-tag-color: #181818;
+    --theme-bg-color: #{$dark-bg-primary};
+    --theme-section-background: #{$dark-bg-secondary};
+    --theme-section-background-opacity: rgba(17, 17, 17, 0.95);
+    --theme-tag-color: #{$dark-bg-tertiary};
     --theme-box-shadow: none;
 
-    --theme-nav-background: #1A1A1A;
-    --theme-nav-background-disabled: #181818;
-    --theme-nav-secondary: #EEEEEE;
-    --theme-nav-light: #1f2022;
-    --theme-nav-highlight: #9dff8e;
-    --theme-nav-selected: #232526;
+    // Navigation
+    --theme-nav-background: #{$dark-bg-secondary};
+    --theme-nav-background-disabled: #{$dark-bg-primary};
+    --theme-nav-secondary: #{$text-light};
+    --theme-nav-light: #{$dark-bg-quaternary};
+    --theme-nav-highlight: #{$brand-color};
+    --theme-nav-selected: #{$brand-color-dark};
 
-    --theme-scrollbar-track: #111111;
-    --theme-scrollbar-thumb: #32343a;
-    --theme-chart-borders: #e7f6e3;
+    // UI elements
+    --theme-scrollbar-track: #{$dark-bg-primary};
+    --theme-scrollbar-thumb: #{$scrollbar-dark};
+    --theme-chart-borders: #{$scrollbar-dark};
 
-    --theme-danger: #730808;
+    // States
+    --theme-danger: #{$brand-color-dark};
 }
 
 /** COLORS - light theme palette **/
 [data-theme="light"] {
-    --theme-main: #9adbaf;
-    --theme-main-2: #8ec9a1;
-    --theme-main-3: #82b791;
-    --theme-main-4: #7db08e;
+    // Main backgrounds
+    --theme-main: #{$light-bg-primary};
+    --theme-main-2: #{$light-bg-secondary};
+    --theme-main-3: #{$light-bg-tertiary};
+    --theme-main-4: #{$light-bg-quaternary};
 
-    --theme-secondary: #404b41;
-    --theme-secondary-2: #49564a;
-    --theme-secondary-3: #576758;
-    --theme-secondary-4: #5e6c5e;
+    // Text colors
+    --theme-secondary: #{$text-dark};
+    --theme-secondary-2: #374151;
+    --theme-secondary-3: #4b5563;
+    --theme-secondary-4: #6b7280;
 
-    --theme-soft: #c3e3cb;
-    --theme-soft-2: #bfdec7;
-    --theme-soft-3: #bad9c2;
+    // Soft backgrounds
+    --theme-soft: #{$light-bg-secondary};
+    --theme-soft-2: #{$light-bg-tertiary};
+    --theme-soft-3: #{$light-bg-quaternary};
 
-    --theme-dark: #daf5e4;
-    --theme-dark-opacity: rgba(218, 245, 228, 0.2);
-    --theme-muted: #7c8d7f;
-    --theme-white: #ffffff;
+    // Brand colors
+    --theme-highlight: #{$brand-color};
+    --theme-highlight-2: #{$brand-color-light};
+    --theme-highlight-3: #{$brand-color-lighter};
 
-    --theme-highlight: #269366;
-    --theme-highlight-2: #207956;
-    --theme-highlight-3: #1a6447;
+    // Other colors
+    --theme-dark: #{$light-bg-primary};
+    --theme-dark-opacity: rgba(249, 250, 251, 0.2);
+    --theme-muted: #9ca3af;
+    --theme-white: #{$light-bg-primary};
 
-    --theme-bg: url('/images/css/bg-green.png');
-    --theme-bg-color: #9adbaf;
-    --theme-section-background: #caecd5;
-    --theme-section-background-opacity: rgba(202, 236, 213, 0.9);
-    --theme-tag-color: #b1ccbd;
+    // Backgrounds
+    --theme-bg: url('/images/css/bg-light.png');
+    --theme-bg-color: #{$light-bg-primary};
+    --theme-section-background: #{$light-bg-secondary};
+    --theme-section-background-opacity: rgba(249, 250, 251, 0.9);
+    --theme-tag-color: #{$light-bg-tertiary};
     --theme-box-shadow: none;
 
-    --theme-nav-background: #caecd5;
-    --theme-nav-background-disabled: #c5e6d0;
-    --theme-nav-secondary: #4f5b50;
-    --theme-nav-light: rgba(217, 243, 222, 0.5);
-    --theme-nav-highlight: #d7f1e3;
-    --theme-nav-selected: #269366;
+    // Navigation
+    --theme-nav-background: #{$light-bg-secondary};
+    --theme-nav-background-disabled: #{$light-bg-tertiary};
+    --theme-nav-secondary: #{$text-dark};
+    --theme-nav-light: rgba(249, 250, 251, 0.5);
+    --theme-nav-highlight: #{$brand-color};
+    --theme-nav-selected: #{$brand-color-dark};
 
-    --theme-scrollbar-track: #c3e4cc;
-    --theme-scrollbar-thumb: #55bd91;
-    --theme-chart-borders: #e7f6e3;
+    // UI elements
+    --theme-scrollbar-track: #{$light-bg-secondary};
+    --theme-scrollbar-thumb: #{$scrollbar-light};
+    --theme-chart-borders: #{$light-bg-tertiary};
 
-    --theme-danger: #fad6d6;
+    // States
+    --theme-danger: #{$brand-color-dark};
 }
 
+// Background classes
 .bg-dark {
     background-image: url('/images/css/bg-dark.jpg');
     background-size: cover;
