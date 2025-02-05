@@ -37,7 +37,14 @@
             "watch_video": "Watch video",
             "where_to_find": "Where to find",
             "yay": "Yay!",
-            "yes": "Yes"
+            "yes": "Yes",
+            "resume": {
+                "title": "Resume",
+                "title_long": "My Professional Resume",
+                "title_long_prefix": "View and download",
+                "download": "Download Resume",
+                "viewOnline": "View Online"
+            }
         },
 
         "es": {
@@ -77,7 +84,14 @@
             "watch_video": "Ver video",
             "where_to_find": "Dónde encontrar",
             "yay": "¡Yay!",
-            "yes": "Sí"
+            "yes": "Sí",
+            "resume": {
+                "title": "Currículum",
+                "title_long": "Mi Currículum Profesional",
+                "title_long_prefix": "Ver y descargar",
+                "download": "Descargar Currículum",
+                "viewOnline": "Ver en línea"
+            }
         }    
     }
 }

@@ -47,6 +47,17 @@
             "categoryId": "more",
             "jsonPath": "/data/sections/contact.json",
             "faIcon": "fa-solid fa-pen-to-square"
+        },
+
+        {
+            "id": "resume",
+            "categoryId": "more",
+            "jsonPath": "/data/sections/resume.json",
+            "faIcon": "fa-solid fa-file-pdf",
+            "locales": {
+                "en": {"title": "Resume"},
+                "es": {"title": "Currículum"}
+            }
         }
     ],
 
@@ -85,6 +96,15 @@
                 "en": {"title": "More"},
                 "es": {"title": "Más"}
             }
+        }
+    ],
+
+    "navigation": [
+        {
+            "id": "resume",
+            "title": "Resume",
+            "path": "/resume",
+            "icon": "document"
         }
     ]
 }

@@ -1,0 +1,31 @@
+{
+    "locales": {
+        "en": {
+            "title": "Resume",
+            "title_long": "My Professional Resume",
+            "title_long_prefix": "View and download",
+            "description": "View or download my professional resume"
+        },
+        "es": {
+            "title": "Currículum",
+            "title_long": "Mi Currículum Profesional",
+            "title_long_prefix": "Ver y descargar",
+            "description": "Ver o descargar mi currículum profesional"
+        }
+    },
+    "articles": [
+        {
+            "id": "resume_viewer",
+            "component": "Resume",
+            "config": {
+                "title": "My Professional Resume",
+                "title_prefix": "View and download"
+            },
+            "items": [
+                {
+                    "resumeFile": "/images/docs/Antoine_Resume.pdf"
+                }
+            ]
+        }
+    ]
+} 

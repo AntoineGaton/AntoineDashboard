@@ -23,3 +23,4 @@ NOTES.txt
 *.njsproj
 *.sln
 *.sw?
+.vercel
