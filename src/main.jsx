@@ -1,5 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { Analytics } from '@vercel/analytics/react'
 
 // Provider imports - these wrap the app with different contexts
 import {DataProvider} from "/src/providers/DataProvider"
@@ -48,6 +49,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
             <Preloader>
                 <AppProviders>
                     <App/>
+                    <Analytics />
                 </AppProviders>
             </Preloader>
         </StrictMode>
