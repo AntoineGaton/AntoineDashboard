@@ -37,15 +37,15 @@
                         "en": {
                             "title": "**Software** Engineer",
                             "info": "SBS CyberSecurity",
-                            "text": "I build and maintain full-stack applications and APIs, improve internal developer workflows, and work across cloud infrastructure and modern pipelines. I also help drive AI adoption and tooling initiatives across Agile teams.",
-                            "tags": ["Full-Stack Development", "API Development", "Cloud Services", "Developer Tooling", "AI Adoption", "Agile"]
+                            "text": "I build and maintain full-stack applications and APIs, improve internal developer workflows, and work across cloud infrastructure and modern pipelines. I am one of the leaders of AI integration at SBS, driving AI adoption and tooling initiatives across Agile teams.",
+                            "tags": ["AI Integration", "Full-Stack Development", "API Development", "Cloud Services", "Developer Tooling", "Agile"]
                         },
 
                         "es": {
                             "title": "**Ingeniero** de Software",
                             "info": "SBS CyberSecurity",
-                            "text": "Construyo y mantengo aplicaciones full-stack y APIs, mejoro los flujos de trabajo internos de desarrollo y trabajo con infraestructura en la nube y pipelines modernos. También ayudo a impulsar la adopción de IA y las iniciativas de herramientas en equipos Agile.",
-                            "tags": ["Desarrollo Full-Stack", "Desarrollo de APIs", "Servicios en la Nube", "Herramientas para Desarrolladores", "Adopción de IA", "Agile"]
+                            "text": "Construyo y mantengo aplicaciones full-stack y APIs, mejoro los flujos de trabajo internos de desarrollo y trabajo con infraestructura en la nube y pipelines modernos. Soy uno de los líderes de la integración de IA en SBS e impulso la adopción de IA y las iniciativas de herramientas en equipos Agile.",
+                            "tags": ["Integración de IA", "Desarrollo Full-Stack", "Desarrollo de APIs", "Servicios en la Nube", "Herramientas para Desarrolladores", "Agile"]
                         }
                     }
                 },
