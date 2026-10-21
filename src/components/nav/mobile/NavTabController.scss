@@ -46,7 +46,7 @@ button.nav-tab-btn {
         font-family: $custom-subheadings-font-family;
         font-weight: bold;
         text-transform: uppercase;
-        opacity: 0.25;
+        opacity: 0.6;
 
         @include media-breakpoint-down(sm) {
             font-size: 0.575rem;
