@@ -662,6 +662,74 @@
         },
 
         {
+            "id": "ai_tools",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {"title": "AI & Automation"},
+                "es": {"title": "IA y Automatización"}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-comments",
+                        "faColors": {"bg": "#10A37F", "fill": "#FFFFFF"}
+                    },
+                    "value": null,
+
+                    "dates": {
+                        "start": "11/30/2022"
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "ChatGPT",
+                            "info": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-robot",
+                        "faColors": {"bg": "#D97757", "fill": "#FFFFFF"}
+                    },
+                    "value": null,
+
+                    "dates": {
+                        "start": "03/14/2023"
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Claude (Claude Code / Anthropic API)",
+                            "info": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-brain",
+                        "faColors": {"bg": "#6D28D9", "fill": "#FFFFFF"}
+                    },
+                    "value": null,
+
+                    "locales": {
+                        "en": {
+                            "title": "AI Integration & Adoption",
+                            "info": null
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
             "id": "tools_software",
             "component": "ArticleList",
             "config": {},
@@ -734,26 +802,6 @@
                     "locales": {
                         "en": {
                             "title": "Vercel",
-                            "info": null
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-robot",
-                        "faColors": {"bg": "#D97757", "fill": "#FFFFFF"}
-                    },
-                    "value": null,
-
-                    "dates": {
-                        "start": "04/01/2026"
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Claude Code / Anthropic API",
                             "info": null
                         }
                     }
