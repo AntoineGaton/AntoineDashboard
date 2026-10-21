@@ -26,8 +26,8 @@
         "available": true,
 
         "locales": {
-            "en": {"message": "Available for work!"},
-            "es": {"message": "¡Disponible para trabajar!"}
+            "en": {"message": "Taking studio projects!"},
+            "es": {"message": "¡Aceptando proyectos del estudio!"}
         }
     },
 

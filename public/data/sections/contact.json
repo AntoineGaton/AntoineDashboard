@@ -83,6 +83,22 @@
                     "locales": {
                         "en": {"title": "Linkedin"}
                     }
+                },
+
+                {
+                    "value": "Code Monkey Studios",
+                    "links": [
+                        {"href": "https://bio.site/code_monkey.studios"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-code",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "My Studio"},
+                        "es": {"title": "Mi Estudio"}
+                    }
                 }
             ]
         }
