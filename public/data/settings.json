@@ -16,8 +16,8 @@
         "profilePictureUrl": "images/pictures/avatar.webp",
 
         "locales": {
-            "en": {"role": "Software Engineer"},
-            "es": {"role": "Ingeniero de Software"}
+            "en": {"role": "Software Developer at SBS CyberSecurity"},
+            "es": {"role": "Desarrollador de Software en SBS CyberSecurity"}
         }
     },
 
