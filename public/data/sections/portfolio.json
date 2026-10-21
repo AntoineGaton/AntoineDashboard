@@ -22,41 +22,114 @@
 
             "categories": [
                 {
-                    "id": "utilities",
+                    "id": "tools",
                     "locales": {
-                        "en": {"singular": "Utility", "plural": "Utilities"},
-                        "es": {"singular": "Utilidad", "plural": "Utilidades"}
+                        "en": {"singular": "Tool", "plural": "Tools"},
+                        "es": {"singular": "Herramienta", "plural": "Herramientas"}
                     }
                 },
                 {
-                    "id": "backend",
+                    "id": "apps",
                     "locales": {
-                        "en": {"singular": "Backend", "plural": "Backend"},
-                        "es": {"singular": "Backend", "plural": "Backend"}
-                    }
-                },
-                {
-                    "id": "fullstack",
-                    "locales": {
-                        "en": {"singular": "Full Stack", "plural": "Full Stack"},
-                        "es": {"singular": "Full Stack", "plural": "Full Stack"}
+                        "en": {"singular": "App", "plural": "Apps"},
+                        "es": {"singular": "Aplicación", "plural": "Aplicaciones"}
                     }
                 }
             ],
 
             "items": [
                 {
-                    "categoryId": "fullstack",
+                    "categoryId": "tools",
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-plane",
+                        "fa": "fa-solid fa-tree",
+                        "faColors": {"bg": "#2E5E3A", "fill": "#FFFFFF"}
+                    },
+                    "links": [],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Canopy",
+                            "text": "My personal <b>AI agent workstation</b>. Canopy runs parallel <b>Claude Code</b> agents, each in its own project workspace and git worktree, on a home server. A work queue backed by <b>GitHub Issues</b> feeds the agents, and I steer them from a <b>phone app (PWA)</b> or small hardware clients built on a Raspberry Pi and an M5Stack Cardputer.",
+                            "tags": ["AI Agents", "Claude Code", "TypeScript", "PWA"]
+                        },
+                        "es": {
+                            "title": "Canopy",
+                            "text": "Mi <b>estación de trabajo de agentes de IA</b> personal. Canopy ejecuta agentes de <b>Claude Code</b> en paralelo, cada uno en su propio espacio de proyecto y git worktree, en un servidor doméstico. Una cola de trabajo basada en <b>GitHub Issues</b> alimenta a los agentes, y los dirijo desde una <b>app para el teléfono (PWA)</b> o pequeños clientes de hardware construidos con una Raspberry Pi y una M5Stack Cardputer.",
+                            "tags": ["Agentes de IA", "Claude Code", "TypeScript", "PWA"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-fire",
+                        "faColors": {"bg": "#9A3412", "fill": "#FFFFFF"}
+                    },
+                    "links": [],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Campfire",
+                            "text": "A personal <b>AI Dungeon Master</b> for D&amp;D. Create a character, keep a living character sheet, roll digital or physical dice, and play adventures run by an AI DM with <b>reliable, persistent world state</b>. Built with <b>Next.js</b> and <b>PostgreSQL</b>. In development.",
+                            "tags": ["Next.js", "PostgreSQL", "AI", "TypeScript"]
+                        },
+                        "es": {
+                            "title": "Campfire",
+                            "text": "Un <b>Dungeon Master con IA</b> personal para D&amp;D. Crea un personaje, mantén una hoja de personaje viva, tira dados digitales o físicos y juega aventuras dirigidas por un DM con IA con un <b>estado del mundo fiable y persistente</b>. Construido con <b>Next.js</b> y <b>PostgreSQL</b>. En desarrollo.",
+                            "tags": ["Next.js", "PostgreSQL", "IA", "TypeScript"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-film",
+                        "faColors": {"bg": "#7F1D1D", "fill": "#FFFFFF"}
+                    },
+                    "links": [],
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Reeled",
+                            "text": "<b>The movie decision engine.</b> Reeled ends the “what should we watch tonight?” debate with a <b>bracket-style pick engine</b>, real-time group watch sessions, gamified watch logging and an <b>AI taste profile</b> built from your watch history. Mobile-first, built with <b>Next.js</b> and <b>Supabase</b>.",
+                            "tags": ["Next.js", "Supabase", "AI", "Mobile-First"]
+                        },
+                        "es": {
+                            "title": "Reeled",
+                            "text": "<b>El motor de decisiones para películas.</b> Reeled termina el debate de “¿qué vemos esta noche?” con un <b>motor de elección por eliminatorias</b>, sesiones grupales en tiempo real, un registro de películas con gamificación y un <b>perfil de gustos con IA</b> basado en tu historial. Pensado para móvil, construido con <b>Next.js</b> y <b>Supabase</b>.",
+                            "tags": ["Next.js", "Supabase", "IA", "Mobile-First"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-dog",
                         "faColors": {"bg": "#1B4F72", "fill": "#FFFFFF"}
                     },
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://cargo-sales-intl.vercel.app/"},
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/AntoineGaton/CargoSalesIntl"},
-                        {"faIcon": "fa-solid fa-file-lines", "href": "https://www.canva.com/design/DAGdt1hYDQM/3RFLqCxIVfX7dp4LGEistg/edit"}
-                    ],
+                    "links": [],
                     "media": {
                         "youtubeVideo": null,
                         "screenshots": {
@@ -66,26 +139,26 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Cargo Sales International",
-                            "text": "A comprehensive business solution for a mortuary transport company, featuring both a <b>modern web platform</b> and a <b>2-year strategic roadmap</b>. Built with <b>Next.js</b> and <b>Tailwind CSS</b>, the site offers real-time quote generation, service booking, and 24/7 support access. Includes detailed documentation covering business expansion strategy, technical implementation timeline, and ROI projections.",
-                            "tags": ["Next.js", "Tailwind CSS", "Business Strategy", "Transport Logistics"]
+                            "title": "FetchFlow",
+                            "text": "<b>White-label SaaS for pet care businesses.</b> Dog walkers, pet sitters and pet transport providers get a branded client portal and a back office for <b>booking, billing and automated reminders</b> by SMS and email. Multi-tenant on <b>Next.js</b> and <b>Supabase</b> with row-level security.",
+                            "tags": ["Next.js", "Supabase", "SaaS", "Multi-Tenant"]
                         },
                         "es": {
-                            "title": "Cargo Sales International",
-                            "text": "Una solución empresarial integral para una compañía de transporte mortuorio, que incluye una <b>plataforma web moderna</b> y una <b>hoja de ruta estratégica a 2 años</b>. Construida con <b>Next.js</b> y <b>Tailwind CSS</b>, el sitio ofrece generación de cotizaciones en tiempo real, reserva de servicios y acceso a soporte 24/7. Incluye documentación detallada que cubre estrategia de expansión comercial, cronograma de implementación técnica y proyecciones de ROI.",
-                            "tags": ["Next.js", "Tailwind CSS", "Estrategia Empresarial", "Logística de Transporte"]
+                            "title": "FetchFlow",
+                            "text": "<b>SaaS de marca blanca para negocios de cuidado de mascotas.</b> Paseadores de perros, cuidadores y servicios de transporte de mascotas obtienen un portal de clientes con su marca y una oficina para <b>reservas, facturación y recordatorios automáticos</b> por SMS y correo. Multi-inquilino sobre <b>Next.js</b> y <b>Supabase</b> con seguridad a nivel de fila.",
+                            "tags": ["Next.js", "Supabase", "SaaS", "Multi-Inquilino"]
                         }
                     }
                 },
                 {
-                    "categoryId": "utilities",
+                    "categoryId": "tools",
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-brain",
-                        "faColors": {"bg": "#2C3E50", "fill": "#ECF0F1"}
+                        "fa": "fa-solid fa-inbox",
+                        "faColors": {"bg": "#374151", "fill": "#FFFFFF"}
                     },
                     "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/antoinegaton/chronic-kidney-disease-prediction"}
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/AntoineGaton/zerobox-cli"}
                     ],
                     "media": {
                         "youtubeVideo": null,
@@ -96,329 +169,17 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Chronic Kidney Disease Prediction",
-                            "text": "A <b>machine learning model</b> built with <b>Python</b> and scikit-learn for predicting chronic kidney disease using patient data and health indicators.",
-                            "tags": ["Machine Learning", "Healthcare", "Python"]
+                            "title": "zerobox-cli",
+                            "text": "<b>Clean your Gmail from the terminal.</b> ZeroBox ranks every sender in your inbox, then trashes, unsubscribes and filters the noisy ones in bulk. It runs on your machine, with no ZeroBox server. It cleaned a 25,554-email inbox down to 7,987 with 0 failures.",
+                            "tags": ["TypeScript", "Node.js", "CLI", "Gmail API"]
                         },
                         "es": {
-                            "title": "Predicción de Enfermedad Renal Crónica",
-                            "text": "Un <b>modelo de aprendizaje automático</b> construido con <b>Python</b> y scikit-learn para predecir la enfermedad renal crónica utilizando datos de pacientes e indicadores de salud.",
-                            "tags": ["Machine Learning", "Salud", "Python"]
+                            "title": "zerobox-cli",
+                            "text": "<b>Limpia tu Gmail desde la terminal.</b> ZeroBox clasifica a cada remitente de tu bandeja de entrada y luego envía a la papelera, cancela suscripciones y filtra en bloque a los más ruidosos. Se ejecuta en tu equipo, sin servidor de ZeroBox. Limpió una bandeja de 25,554 correos hasta 7,987 sin ningún fallo.",
+                            "tags": ["TypeScript", "Node.js", "CLI", "Gmail API"]
                         }
                     }
-                },
-
-                {
-                    "categoryId": "utilities",
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-credit-card",
-                        "faColors": {"bg": "#34495E", "fill": "#ECF0F1"}
-                    },
-                    "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/antoinegaton/credit-card-fraud-detection"}
-                    ],
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Credit Card Fraud Detection",
-                            "text": "An <b>AI-powered system</b> developed using <b>Python</b> and machine learning algorithms to detect fraudulent credit card transactions with high accuracy.",
-                            "tags": ["AI", "Fraud Detection", "Data Analysis"]
-                        },
-                        "es": {
-                            "title": "Detección de Fraude con Tarjetas de Crédito",
-                            "text": "Un <b>sistema basado en IA</b> desarrollado con <b>Python</b> y algoritmos de aprendizaje automático para detectar transacciones fraudulentas con tarjetas de crédito con alta precisión.",
-                            "tags": ["IA", "Detección de Fraude", "Análisis de Datos"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "utilities",
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-ship",
-                        "faColors": {"bg": "#2980B9", "fill": "#ECF0F1"}
-                    },
-                    "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/antoinegaton/titanic-dataset-analysis"}
-                    ],
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Titanic Dataset Analysis",
-                            "text": "A comprehensive <b>data analysis project</b> using <b>Python</b> to analyze the Titanic dataset, including survival prediction models and statistical analysis.",
-                            "tags": ["Data Science", "Analysis", "Python"]
-                        },
-                        "es": {
-                            "title": "Análisis del Dataset del Titanic",
-                            "text": "Un <b>proyecto de análisis de datos</b> completo usando <b>Python</b> para analizar el conjunto de datos del Titanic, incluyendo modelos de predicción de supervivencia y análisis estadístico.",
-                            "tags": ["Ciencia de Datos", "Análisis", "Python"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "utilities",
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-folder-tree",
-                        "faColors": {"bg": "#3776AB", "fill": "#FFFFFF"}
-                    },
-                    "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/AntoineGaton/Directory_Manager_CLI"}
-                    ],
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Directory Manager CLI",
-                            "text": "A powerful <b>command-line interface</b> built with <b>Python</b> for managing hierarchical directory structures. Features an intuitive and colorful interface for creating, deleting, moving, and visualizing directory trees.",
-                            "tags": ["Python", "CLI", "System Tools"]
-                        },
-                        "es": {
-                            "title": "Directory Manager CLI",
-                            "text": "Una potente <b>interfaz de línea de comandos</b> construida con <b>Python</b> para gestionar estructuras de directorios jerárquicos. Ofrece una interfaz intuitiva y colorida para crear, eliminar, mover y visualizar árboles de directorios.",
-                            "tags": ["Python", "CLI", "Herramientas de Sistema"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "utilities",
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-gamepad",
-                        "faColors": {"bg": "#171a21", "fill": "#FFFFFF"}
-                    },
-                    "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/AntoineGaton/game_tracker"}
-                    ],
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Game Tracker CLI",
-                            "text": "A powerful CLI application that integrates with <b>Steam</b> to manage your gaming collection. Features include <b>automatic game syncing</b>, playtime tracking, and integration with <b>HowLongToBeat</b> for completion times. Built with Python and <b>PostgreSQL</b> for robust data management.",
-                            "tags": ["Python", "Steam API", "PostgreSQL", "CLI"]
-                        },
-                        "es": {
-                            "title": "Game Tracker CLI",
-                            "text": "Una potente aplicación CLI que se integra con <b>Steam</b> para gestionar tu colección de juegos. Incluye <b>sincronización automática de juegos</b>, seguimiento del tiempo de juego e integración con <b>HowLongToBeat</b> para tiempos de finalización. Construido con Python y <b>PostgreSQL</b> para una gestión robusta de datos.",
-                            "tags": ["Python", "Steam API", "PostgreSQL", "CLI"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "backend",
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-database",
-                        "faColors": {"bg": "#512BD4", "fill": "#FFFFFF"}
-                    },
-                    "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/AntoineGaton/CodingDojo_CSharp"}
-                    ],
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "C# ORM Collection",
-                            "text": "A comprehensive collection of <b>.NET Core</b> projects demonstrating ORM implementations including <b>CRUDelicious</b>, <b>ChefNDishes</b>, <b>ProductsAndCategories</b>, and <b>WeddingPlanner</b>. Features include database management, relationships, and authentication.",
-                            "tags": [".NET Core", "ORM", "C#", "Database"]
-                        },
-                        "es": {
-                            "title": "Colección ORM en C#",
-                            "text": "Una colección completa de proyectos <b>.NET Core</b> que demuestra implementaciones ORM incluyendo <b>CRUDelicious</b>, <b>ChefNDishes</b>, <b>ProductsAndCategories</b>, y <b>WeddingPlanner</b>. Incluye gestión de bases de datos, relaciones y autenticación.",
-                            "tags": [".NET Core", "ORM", "C#", "Base de datos"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "backend",
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-code",
-                        "faColors": {"bg": "#512BD4", "fill": "#FFFFFF"}
-                    },
-                    "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/AntoineGaton/CodingDojo_CSharp/tree/master/ASPNET%20Core"}
-                    ],
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "ASP.NET Core Projects",
-                            "text": "A collection of web applications built with <b>ASP.NET Core</b> including <b>DojoSurvey</b> for form handling and data collection, and <b>RandomPasscode</b> for secure password generation. Features MVC architecture, form validation, and session management.",
-                            "tags": ["ASP.NET Core", "MVC", "C#", "Web Development"]
-                        },
-                        "es": {
-                            "title": "Proyectos ASP.NET Core",
-                            "text": "Una colección de aplicaciones web construidas con <b>ASP.NET Core</b> incluyendo <b>DojoSurvey</b> para manejo de formularios y recolección de datos, y <b>RandomPasscode</b> para generación segura de contraseñas. Incluye arquitectura MVC, validación de formularios y gestión de sesiones.",
-                            "tags": ["ASP.NET Core", "MVC", "C#", "Desarrollo Web"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "backend",
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-python",
-                        "faColors": {"bg": "#000000", "fill": "#FFFFFF"}
-                    },
-                    "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/AntoineGaton/Python-Demos/tree/master/Going%20Full%20Stack%20Demo/flask_app"}
-                    ],
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Flask Full Stack Demo",
-                            "text": "A full-stack web application built with <b>Flask</b> following MVC architecture. Features include structured project organization with <b>controllers</b>, <b>models</b>, and <b>templates</b>, demonstrating Python web development best practices.",
-                            "tags": ["Flask", "Python", "Full Stack", "MVC"]
-                        },
-                        "es": {
-                            "title": "Demo Full Stack con Flask",
-                            "text": "Una aplicación web full-stack construida con <b>Flask</b> siguiendo la arquitectura MVC. Incluye organización estructurada del proyecto con <b>controladores</b>, <b>modelos</b> y <b>plantillas</b>, demostrando las mejores prácticas en desarrollo web con Python.",
-                            "tags": ["Flask", "Python", "Full Stack", "MVC"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "fullstack",
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-code",
-                        "faColors": {"bg": "#61DAFB", "fill": "#282C34"}
-                    },
-                    "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/AntoineGaton/AntoineDashboard"}
-                    ],
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Software Engineer Portfolio",
-                            "text": "A modern, responsive portfolio website built with <b>React</b> and <b>Vite</b>. Features include <b>multi-language support</b> (English/Spanish/French/Korean), light/dark theme system, <b>JSON-powered content management</b>, and interactive components using <b>Swiper</b>, <b>Chart.js</b>, and <b>Three.js</b>. Enhanced with EmailJS integration and smooth scrolling.",
-                            "tags": ["React", "Vite", "Bootstrap", "Interactive Components"]
-                        },
-                        "es": {
-                            "title": "Portafolio de Ingeniero de Software",
-                            "text": "Un sitio web de portafolio moderno y responsive construido con <b>React</b> y <b>Vite</b>. Incluye soporte <b>multi-idioma</b> (Inglés/Español/Francés/Coreano), sistema de tema claro/oscuro, <b>gestión de contenido basada en JSON</b>, y componentes interactivos usando <b>Swiper</b>, <b>Chart.js</b>, y <b>Three.js</b>. Mejorado con integración EmailJS y desplazamiento suave.",
-                            "tags": ["React", "Vite", "Bootstrap", "Componentes Interactivos"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "fullstack",
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-handcuffs",
-                        "faColors": {"bg": "#2C3E50", "fill": "#FFFFFF"}
-                    },
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://aaa-bail-master.vercel.app/"},
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/AntoineGaton/AAABailBonds"}
-                    ],
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "AAA Bail Masters",
-                            "text": "A professional business website for a bail bonds company built with <b>Next.js</b>, <b>ESLint</b>, and <b>Tailwind CSS</b>. Features include responsive design, video background integration, SEO optimization, contact forms, and dynamic review system. The site showcases services, testimonials, and provides 24/7 contact information for immediate assistance.",
-                            "tags": ["Next.js", "Tailwind CSS", "Business Website", "SEO"]
-                        },
-                        "es": {
-                            "title": "AAA Bail Masters",
-                            "text": "Un sitio web profesional para una empresa de fianzas construido con <b>Next.js</b>, <b>ESLint</b> y <b>Tailwind CSS</b>. Incluye diseño responsive, integración de video de fondo, optimización SEO, formularios de contacto y sistema dinámico de reseñas. El sitio muestra servicios, testimonios y proporciona información de contacto 24/7 para asistencia inmediata.",
-                            "tags": ["Next.js", "Tailwind CSS", "Sitio Web Empresarial", "SEO"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "website",
-                        "icon": {
-                            "img": null,
-                            "fa": "fa-solid fa-paw",
-                            "faColors": {"bg": "#8B4513", "fill": "#FFFFFF"}
-                        },
-                        "links": [
-                            {"faIcon": "fa-solid fa-link", "href": "https://apetnosebest.com"},
-                            {"faIcon": "fa-brands fa-github", "href": "https://github.com/AntoineGaton/A-Pet-Nose-Best-Site"}
-                        ],
-                        "media": {
-                            "youtubeVideo": null,
-                            "screenshots": {
-                                "aspectRatio": null,
-                                "images": []
-                            }
-                        },
-                        "locales": {
-                            "en": {
-                                "title": "A Pet Nose Best",
-                                "text": "A professional website for a pet services business, initially built with <b>HTML/CSS/JavaScript</b> and later upgraded to <b>Vite</b> for improved performance and SEO. Features include responsive design, contact forms with autocomplete, and optimized image loading. Currently implementing enhanced SEO strategies and expanded service pages.",
-                                "tags": ["Vite", "SEO", "Client Project", "Web Development"]
-                            },
-                            "es": {
-                                "title": "A Pet Nose Best",
-                                "text": "Un sitio web profesional para una empresa de servicios para mascotas, inicialmente construido con <b>HTML/CSS/JavaScript</b> y posteriormente actualizado a <b>Vite</b> para mejorar el rendimiento y SEO. Incluye diseño responsive, formularios de contacto con autocompletado y carga optimizada de imágenes. Actualmente implementando estrategias mejoradas de SEO y páginas de servicios expandidas.",
-                                "tags": ["Vite", "SEO", "Proyecto Cliente", "Desarrollo Web"]
-                            }
-                        }
-                    }
+                }
             ]
         }
     ]
