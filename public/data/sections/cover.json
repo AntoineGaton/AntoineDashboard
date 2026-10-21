@@ -120,7 +120,7 @@
                         {"href": "https://www.linkedin.com/in/spencer-rauch/"}
                     ],
                     "icon": {
-                        "img": "images/pictures/person-1.png",
+                        "img": "images/pictures/person-1.webp",
                         "fa": "fa-solid fa-user",
                         "faColors": null
                     },
@@ -142,7 +142,7 @@
                         {"href": "https://www.linkedin.com/in/wesley-mcelhinny/"}
                     ],
                     "icon": {
-                        "img": "images/pictures/person-2.png",
+                        "img": "images/pictures/person-2.webp",
                         "fa": null,
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -164,7 +164,7 @@
                         {"href": "https://www.linkedin.com/in/abrar-hussain00/"}
                     ],
                     "icon": {
-                        "img": "images/pictures/person-5.png",
+                        "img": "images/pictures/person-5.webp",
                         "fa": null,
                         "faColors": {"bg": null, "fill": null}
                     },

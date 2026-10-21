@@ -23,7 +23,7 @@
             "items": [
                 {
                     "icon": {
-                        "img": "images/pictures/place-5.png",
+                        "img": "images/pictures/place-5.webp",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -51,7 +51,7 @@
                 },
                 {
                     "icon": {
-                        "img": "images/pictures/place-4.png",
+                        "img": "images/pictures/place-4.webp",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -78,7 +78,7 @@
 
                 {
                     "icon": {
-                        "img": "images/pictures/place-3.png",
+                        "img": "images/pictures/place-3.webp",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -105,7 +105,7 @@
                 },
                 {
                     "icon": {
-                        "img": "images/pictures/place-2.png",
+                        "img": "images/pictures/place-2.webp",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
