@@ -23,9 +23,9 @@
             "items": [
                 {
                     "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-shield-halved",
-                        "faColors": {"bg": "#1F3A5F", "fill": "#FFFFFF"}
+                        "img": "images/pictures/place-6.webp",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
                     },
 
                     "dates": {
@@ -35,17 +35,17 @@
 
                     "locales": {
                         "en": {
-                            "title": "**Software** Developer",
+                            "title": "**Software** Engineer",
                             "info": "SBS CyberSecurity",
-                            "text": "Full-time, remote software developer at SBS CyberSecurity, based in Madison, SD.",
-                            "tags": ["Software Development", "Full-Stack Development"]
+                            "text": "I build and maintain full-stack applications and APIs, improve internal developer workflows, and work across cloud infrastructure and modern pipelines. I also help drive AI adoption and tooling initiatives across Agile teams.",
+                            "tags": ["Full-Stack Development", "API Development", "Cloud Services", "Developer Tooling", "AI Adoption", "Agile"]
                         },
 
                         "es": {
-                            "title": "**Desarrollador** de Software",
+                            "title": "**Ingeniero** de Software",
                             "info": "SBS CyberSecurity",
-                            "text": "Desarrollador de software a tiempo completo y en remoto en SBS CyberSecurity, con sede en Madison, SD.",
-                            "tags": ["Desarrollo de Software", "Desarrollo Full-Stack"]
+                            "text": "Construyo y mantengo aplicaciones full-stack y APIs, mejoro los flujos de trabajo internos de desarrollo y trabajo con infraestructura en la nube y pipelines modernos. También ayudo a impulsar la adopción de IA y las iniciativas de herramientas en equipos Agile.",
+                            "tags": ["Desarrollo Full-Stack", "Desarrollo de APIs", "Servicios en la Nube", "Herramientas para Desarrolladores", "Adopción de IA", "Agile"]
                         }
                     }
                 },

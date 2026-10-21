@@ -42,17 +42,17 @@
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-database",
+                        "fa": "fa-solid fa-robot",
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
                         "en": {
-                            "title": "**Database** management",
-                            "text": "I can handle your data effectively!"
+                            "title": "**AI** workflows",
+                            "text": "I design multi-agent AI workflows that ship real work!"
                         },
                         "es": {
-                            "title": "Gestión de **bases de datos**",
-                            "text": "¡Puedo gestionar tus datos de manera eficaz!"
+                            "title": "Flujos de trabajo con **IA**",
+                            "text": "¡Diseño flujos de IA con múltiples agentes que entregan trabajo real!"
                         }
                     }
                 },
@@ -78,17 +78,17 @@
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-window-restore",
+                        "fa": "fa-solid fa-screwdriver-wrench",
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
                         "en": {
-                            "title": "REST **APIs**",
-                            "text": "I can build API services!"
+                            "title": "Developer **tooling**",
+                            "text": "I build tools that make developers faster!"
                         },
                         "es": {
-                            "title": "APIs **REST**",
-                            "text": "¡Puedo crear servicios API!"
+                            "title": "Herramientas para **desarrolladores**",
+                            "text": "¡Creo herramientas que hacen más rápidos a los desarrolladores!"
                         }
                     }
                 }
@@ -102,17 +102,58 @@
             "component": "ArticleList",
             "config": {},
             "locales": {
-                "en": {"title": "Programming Languages"}
+                "en": {"title": "Programming Languages"},
+                "es": {"title": "Lenguajes de Programación"}
             },
 
             "items": [
                 {
                     "icon": {
                         "img": null,
+                        "fa": "fa-solid fa-code",
+                        "faColors": {"bg": "#3178C6", "fill": "#FFFFFF"}
+                    },
+                    "value": null,
+
+                    "dates": {
+                        "start": "09/01/2022"
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "TypeScript",
+                            "info": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-square-js",
+                        "faColors": {"bg": "#F7DF1E", "fill": "#000"}
+                    },
+                    "value": null,
+
+                    "dates": {
+                        "start": "09/01/2021"
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript",
+                            "info": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
                         "fa": "fa-brands fa-python",
                         "faColors": {"bg": "#092E20", "fill": "#EEE"}
                     },
-                    "value": 100,
+                    "value": null,
 
                     "dates": {
                         "start": "09/01/2021"
@@ -129,54 +170,10 @@
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-brands fa-square-js",
-                        "faColors": {"bg": "#F7DF1E", "fill": "#000"}
-                    },
-                    "value": 100,
-
-
-                    "dates": {
-                        "start": "09/01/2021"
-                    },
-
-
-                    "locales": {
-                        "en": {
-                            "title": "JavaScript",
-                            "info": null
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-c",
-                        "faColors": {"bg": "#004482", "fill": "#EEE"}
-                    },
-                    "value": 80,
-
-
-                    "dates": {
-                        "start": "01/10/2024"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "C++",
-                            "info": null
-                        }
-                    }
-
-                },
-
-                {
-                    "icon": {
-                        "img": null,
                         "fa": "fa-solid fa-c",
                         "faColors": {"bg": "#239120", "fill": "#EEE"}
                     },
-                    "value": 80,
-
+                    "value": null,
 
                     "dates": {
                         "start": "01/10/2024"
@@ -188,8 +185,26 @@
                             "info": null
                         }
                     }
+                },
 
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-c",
+                        "faColors": {"bg": "#004482", "fill": "#EEE"}
+                    },
+                    "value": null,
 
+                    "dates": {
+                        "start": "01/10/2024"
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "C++",
+                            "info": null
+                        }
+                    }
                 },
 
                 {
@@ -198,8 +213,7 @@
                         "fa": "fa-brands fa-java",
                         "faColors": {"bg": "#007396", "fill": "#EEE"}
                     },
-                    "value": 80,
-
+                    "value": null,
 
                     "dates": {
                         "start": "01/10/2024"
@@ -220,7 +234,8 @@
             "component": "ArticleList",
             "config": {},
             "locales": {
-                "en": {"title": "Frontend Frameworks & Libraries"}
+                "en": {"title": "Frontend Frameworks & Libraries"},
+                "es": {"title": "Frameworks y Librerías Frontend"}
             },
 
             "items": [
@@ -228,9 +243,29 @@
                     "icon": {
                         "img": null,
                         "fa": "fa-brands fa-react",
+                        "faColors": {"bg": "#000000", "fill": "#EEE"}
+                    },
+                    "value": null,
+
+                    "dates": {
+                        "start": "11/15/2022"
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Next.js",
+                            "info": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-react",
                         "faColors": {"bg": "#61DAFB", "fill": "#111"}
                     },
-                    "value": 100,
+                    "value": null,
 
                     "dates": {
                         "start": "10/01/2021"
@@ -243,94 +278,59 @@
                         }
                     }
                 },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-react",
-                        "faColors": {"bg": "#000000", "fill": "#EEE"}
-                    },
-                    "value": 100,
 
-                    "dates": {
-                        "start": "11/15/2022"
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Next.js",
-                            "info": null
-                        }
-                    }
-
-                },
                 {
                     "icon": {
                         "img": null,
                         "fa": "fa-brands fa-react",
                         "faColors": {"bg": "#ffff", "fill": "#111"}
                     },
-                    "value": 80,
+                    "value": null,
 
                     "dates": {
                         "start": "01/10/2024"
                     },
+
                     "locales": {
                         "en": {
                             "title": "React Native",
                             "info": null
                         }
                     }
-
                 },
+
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-brands fa-angular",
-                        "faColors": {"bg": "#DD0031", "fill": "#EEE"}
+                        "fa": "fa-brands fa-vuejs",
+                        "faColors": {"bg": "#35495E", "fill": "#41B883"}
                     },
-                    "value": 80,
+                    "value": null,
 
                     "dates": {
-                        "start": "06/20/2024"
+                        "start": "04/01/2025"
                     },
+
                     "locales": {
                         "en": {
-                            "title": "Angular",
+                            "title": "Vue",
                             "info": null
                         }
                     }
-
                 },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-python",
-                        "faColors": {"bg": "#092E20", "fill": "#EEE"}
-                    },
-                    "value": 80,
 
-                    "dates": {
-                        "start": "08/30/2023"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Django",
-                            "info": null
-                        }
-                    }
-
-                },
                 {
                     "icon": {
                         "img": null,
                         "fa": "fa-solid fa-v",
                         "faColors": {"bg": "#646CFF", "fill": "#FFF"}
                     },
-                    "value": 100,
+                    "value": null,
 
                     "dates": {
                         "start": "02/10/2022"
                     },
+
                     "locales": {
                         "en": {
                             "title": "Vite",
@@ -341,43 +341,23 @@
             ]
         },
 
-
         {
             "id": "ui_styling",
             "component": "ArticleList",
             "config": {},
             "locales": {
-                "en": {"title": "UI & Styling"}
+                "en": {"title": "UI & Styling"},
+                "es": {"title": "UI y Estilos"}
             },
 
             "items": [
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-brands fa-bootstrap",
-                        "faColors": {"bg": "#7952B3", "fill": "#EEE"}
-                    },
-                    "value": 100,
-
-                    "dates": {
-                        "start": "08/01/2021"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Bootstrap",
-                            "info": null
-                        }
-
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
                         "fa": "fa-solid fa-wind",
                         "faColors": {"bg": "#06B6D4", "fill": "#FFF"}
                     },
-                    "value": 100,
-
+                    "value": null,
 
                     "dates": {
                         "start": "03/10/2022"
@@ -394,33 +374,15 @@
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-brands fa-uikit",
-                        "faColors": {"bg": "#007FFF", "fill": "#FFF"}
-                    },
-                    "value": 100,
-                    "dates": {
-                        "start": "06/20/2022"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Material UI",
-                            "info": null
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
                         "fa": "fa-solid fa-angles-right",
                         "faColors": {"bg": "#18181B", "fill": "#FFF"}
                     },
-                    "value": 100,
-
+                    "value": null,
 
                     "dates": {
-                        "start": "08/30/2020"
+                        "start": "09/01/2024"
                     },
+
                     "locales": {
                         "en": {
                             "title": "shadcn/ui",
@@ -432,19 +394,60 @@
                 {
                     "icon": {
                         "img": null,
+                        "fa": "fa-brands fa-uikit",
+                        "faColors": {"bg": "#007FFF", "fill": "#FFF"}
+                    },
+                    "value": null,
+
+                    "dates": {
+                        "start": "06/20/2022"
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Material UI",
+                            "info": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-bootstrap",
+                        "faColors": {"bg": "#7952B3", "fill": "#EEE"}
+                    },
+                    "value": null,
+
+                    "dates": {
+                        "start": "08/01/2021"
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Bootstrap",
+                            "info": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
                         "fa": "fa-brands fa-sass",
                         "faColors": {"bg": "#4479A1", "fill": "#EEE"}
                     },
-                    "value": 80,
+                    "value": null,
+
                     "dates": {
                         "start": "10/10/2024"
                     },
+
                     "locales": {
                         "en": {
                             "title": "Sass",
                             "info": null
                         }
-
                     }
                 },
 
@@ -454,10 +457,12 @@
                         "fa": "fa-brands fa-html5",
                         "faColors": {"bg": "#E34F26", "fill": "#EEE"}
                     },
-                    "value": 100,
+                    "value": null,
+
                     "dates": {
                         "start": "08/01/2021"
                     },
+
                     "locales": {
                         "en": {
                             "title": "HTML5",
@@ -472,7 +477,7 @@
                         "fa": "fa-brands fa-css3-alt",
                         "faColors": {"bg": "#1572B6", "fill": "#EEE"}
                     },
-                    "value": 100,
+                    "value": null,
 
                     "dates": {
                         "start": "08/01/2021"
@@ -493,7 +498,8 @@
             "component": "ArticleList",
             "config": {},
             "locales": {
-                "en": {"title": "Backend"}
+                "en": {"title": "Backend & Data"},
+                "es": {"title": "Backend y Datos"}
             },
 
             "items": [
@@ -501,10 +507,29 @@
                     "icon": {
                         "img": null,
                         "fa": "fa-brands fa-node-js",
+                        "faColors": {"bg": "#215732", "fill": "#8CC84B"}
+                    },
+                    "value": null,
+
+                    "dates": {
+                        "start": "09/01/2021"
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Node.js",
+                            "info": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-node-js",
                         "faColors": {"bg": "#339933", "fill": "#FFF"}
                     },
-                    "value": 100,
-
+                    "value": null,
 
                     "dates": {
                         "start": "09/01/2021"
@@ -521,30 +546,46 @@
                 {
                     "icon": {
                         "img": null,
+                        "fa": "fa-solid fa-bolt",
+                        "faColors": {"bg": "#05998B", "fill": "#FFFFFF"}
+                    },
+                    "value": null,
+
+                    "locales": {
+                        "en": {
+                            "title": "FastAPI",
+                            "info": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
                         "fa": "fa-solid fa-flask",
                         "faColors": {"bg": "#000000", "fill": "#FFF"}
                     },
-                    "value": 100,
+                    "value": null,
 
                     "dates": {
                         "start": "09/01/2021"
                     },
+
                     "locales": {
                         "en": {
                             "title": "Flask",
                             "info": null
                         }
                     }
-
                 },
+
                 {
                     "icon": {
                         "img": null,
                         "fa": "fa-brands fa-windows",
                         "faColors": {"bg": "#512BD4", "fill": "#FFF"}
                     },
-                    "value": 80,
-
+                    "value": null,
 
                     "dates": {
                         "start": "01/10/2024"
@@ -556,84 +597,46 @@
                             "info": null
                         }
                     }
-
                 },
+
                 {
                     "icon": {
                         "img": null,
                         "fa": "fa-solid fa-database",
                         "faColors": {"bg": "#336791", "fill": "#FFF"}
                     },
-                    "value": 80,
+                    "value": null,
 
                     "dates": {
                         "start": "01/15/2024"
                     },
+
                     "locales": {
                         "en": {
                             "title": "PostgreSQL",
                             "info": null
                         }
                     }
-
                 },
 
                 {
                     "icon": {
                         "img": null,
                         "fa": "fa-solid fa-database",
-                        "faColors": {"bg": "#336791", "fill": "#FFF"}
+                        "faColors": {"bg": "#1C1C1C", "fill": "#3ECF8E"}
                     },
-                    "value": 100,
+                    "value": null,
+
                     "dates": {
-                        "start": "10/10/2021"
+                        "start": "02/01/2025"
                     },
+
                     "locales": {
                         "en": {
-                            "title": "MySQL",
+                            "title": "Supabase",
                             "info": null
                         }
                     }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-database",
-                        "faColors": {"bg": "#336791", "fill": "#FFF"}
-                    },
-                    "value": 100,
-
-                    "dates": {
-                        "start": "09/01/2021"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "MongoDB",
-                            "info": null
-                        }
-                    }
-
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-database",
-                        "faColors": {"bg": "#336791", "fill": "#FFF"}
-                    },
-                    "value": 100,
-
-                    "dates": {
-                        "start": "09/01/2023"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Mongo Atlas",
-                            "info": null
-                        }
-                    }
-
                 },
 
                 {
@@ -642,17 +645,17 @@
                         "fa": "fa-solid fa-fire",
                         "faColors": {"bg": "#FFCA28", "fill": "#111"}
                     },
-                    "value": 100,
+                    "value": null,
 
                     "dates": {
                         "start": "09/01/2021"
                     },
+
                     "locales": {
                         "en": {
                             "title": "Firebase",
                             "info": null
                         }
-
                     }
                 }
             ]
@@ -663,8 +666,10 @@
             "component": "ArticleList",
             "config": {},
             "locales": {
-                "en": {"title": "Tools & Software"}
+                "en": {"title": "Tools & Platforms"},
+                "es": {"title": "Herramientas y Plataformas"}
             },
+
             "items": [
                 {
                     "icon": {
@@ -672,10 +677,12 @@
                         "fa": "fa-brands fa-github",
                         "faColors": {"bg": "#181717", "fill": "#EEE"}
                     },
-                    "value": 100,
+                    "value": null,
+
                     "dates": {
                         "start": "08/01/2021"
                     },
+
                     "locales": {
                         "en": {
                             "title": "Git/GitHub",
@@ -683,34 +690,107 @@
                         }
                     }
                 },
+
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-laptop-code",
-                        "faColors": {"bg": "#007ACC", "fill": "#FFF"}
+                        "fa": "fa-solid fa-gears",
+                        "faColors": {"bg": "#2088FF", "fill": "#FFFFFF"}
                     },
-                    "value": 100,
+                    "value": null,
 
-                    "dates": {
-                        "start": "08/01/2021"
-                    },
                     "locales": {
                         "en": {
-                            "title": "VS Code",
+                            "title": "GitHub Actions",
                             "info": null
                         }
                     }
                 },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-docker",
+                        "faColors": {"bg": "#1D63ED", "fill": "#FFFFFF"}
+                    },
+                    "value": null,
+
+                    "locales": {
+                        "en": {
+                            "title": "Docker",
+                            "info": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-caret-up",
+                        "faColors": {"bg": "#000000", "fill": "#FFFFFF"}
+                    },
+                    "value": null,
+
+                    "locales": {
+                        "en": {
+                            "title": "Vercel",
+                            "info": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-robot",
+                        "faColors": {"bg": "#D97757", "fill": "#FFFFFF"}
+                    },
+                    "value": null,
+
+                    "dates": {
+                        "start": "04/01/2026"
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Claude Code / Anthropic API",
+                            "info": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-raspberry-pi",
+                        "faColors": {"bg": "#C51A4A", "fill": "#FFFFFF"}
+                    },
+                    "value": null,
+
+                    "dates": {
+                        "start": "10/01/2026"
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Raspberry Pi",
+                            "info": null
+                        }
+                    }
+                },
+
                 {
                     "icon": {
                         "img": null,
                         "fa": "fa-solid fa-terminal",
                         "faColors": {"bg": "#1C1C1C", "fill": "#00FF00"}
                     },
-                    "value": 100,
+                    "value": null,
+
                     "dates": {
                         "start": "08/01/2021"
                     },
+
                     "locales": {
                         "en": {
                             "title": "Command Line",
