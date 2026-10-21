@@ -17,157 +17,6 @@
 
     "articles": [
         {
-            "id": "fun_facts",
-            "component": "ArticleServices",
-            "config": {},
-            "locales": {},
-
-            "items": [
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-tablet-screen-button",
-                        "faColors": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "05",
-                            "info": "Apps published"
-                        },
-                        "es": {
-                            "title": "05",
-                            "info": "Aplicaciones publicadas"
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-globe",
-                        "faColors": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "5",
-                            "info": "Countries visited"
-                        },
-                        "es": {
-                            "title": "5",
-                            "info": "Países visitados"
-                        }
-                    }
-                },
-                
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-coffee",
-                        "faColors": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "781",
-                            "info": "Coffees consumed while coding"
-                        },
-                        "es": {
-                            "title": "781",
-                            "info": "Cafés consumidos mientras programaba"
-                        }
-
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-code",
-                        "faColors": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "9M+",
-                            "info": "Lines of code written since 2021"
-                        },
-                        "es": {
-                            "title": "9M+",
-                            "info": "Líneas de código escritas desde 2021"
-                        }
-
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-code-commit",
-                        "faColors": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "2,500+",
-                            "info": "Commits pushed"
-                        },
-                        "es": {
-                            "title": "2,500+",
-                            "info": "Commits enviados"
-                        }
-                    }
-                },
-                
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-bug-slash",
-                        "faColors": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "1,000+",
-                            "info": "Bugs squashed"
-                        },
-                        "es": {
-                            "title": "1,000+",
-                            "info": "Errores corregidos"
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-server",
-                        "faColors": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "99.9%",
-                            "info": "Projects uptime"
-                        },
-                        "es": {
-                            "title": "99.9%",
-                            "info": "Tiempo de actividad"
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-moon",
-                        "faColors": null
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "99%",
-                            "info": "Time coding in dark mode"
-                        },
-                        "es": {
-                            "title": "99%",
-                            "info": "Tiempo programando en modo oscuro"
-                        }
-
-                    }
-                }
-            ]
-        },
-
-        {
             "id": "updates",
             "component": "ArticleThread",
             "config": {},
@@ -185,8 +34,8 @@
                     "links": [],
                     "locales": {
                         "en": {
-                            "title": "Decided to persue a career in **programming**!",
-                            "text": "During the pandemic, I decided to change careers and persue a career in programming. I started by taking online courses and self-teaching myself. I was hooked from the first day. Then went on to join a bootcamp to further my skills."
+                            "title": "Decided to pursue a career in **programming**!",
+                            "text": "During the pandemic, I decided to change careers and pursue a career in programming. I started by taking online courses and self-teaching myself. I was hooked from the first day. Then went on to join a bootcamp to further my skills."
                         },
                         "es": {
                             "title": "¡Decidí perseguir una carrera en **programación**!",
@@ -225,7 +74,7 @@
                     "locales": {
                         "en": {
                             "title": "Proposed to my **girlfriend**!",
-                            "text": "I proposed to my **girlfriend** on our anniversary in San Juan, Puerto Rico infront of the Fuente Raíces."
+                            "text": "I proposed to my **girlfriend** on our anniversary in San Juan, Puerto Rico in front of the Fuente Raíces."
                         },
 
 
