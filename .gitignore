@@ -24,3 +24,7 @@ NOTES.txt
 *.sln
 *.sw?
 .vercel
+
+# Vite cache
+.vite
+dist
