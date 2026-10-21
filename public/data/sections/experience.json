@@ -23,7 +23,35 @@
             "items": [
                 {
                     "icon": {
-                        "img": "images/pictures/place-5.png",
+                        "img": null,
+                        "fa": "fa-solid fa-shield-halved",
+                        "faColors": {"bg": "#1F3A5F", "fill": "#FFFFFF"}
+                    },
+
+                    "dates": {
+                        "start": "2025",
+                        "end": "now"
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "**Software** Developer",
+                            "info": "SBS CyberSecurity",
+                            "text": "Full-time, remote software developer at SBS CyberSecurity, based in Madison, SD.",
+                            "tags": ["Software Development", "Full-Stack Development"]
+                        },
+
+                        "es": {
+                            "title": "**Desarrollador** de Software",
+                            "info": "SBS CyberSecurity",
+                            "text": "Desarrollador de software a tiempo completo y en remoto en SBS CyberSecurity, con sede en Madison, SD.",
+                            "tags": ["Desarrollo de Software", "Desarrollo Full-Stack"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/place-5.webp",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -51,7 +79,7 @@
                 },
                 {
                     "icon": {
-                        "img": "images/pictures/place-4.png",
+                        "img": "images/pictures/place-4.webp",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -78,7 +106,7 @@
 
                 {
                     "icon": {
-                        "img": "images/pictures/place-3.png",
+                        "img": "images/pictures/place-3.webp",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -105,7 +133,7 @@
                 },
                 {
                     "icon": {
-                        "img": "images/pictures/place-2.png",
+                        "img": "images/pictures/place-2.webp",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },

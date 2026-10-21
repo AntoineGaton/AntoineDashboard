@@ -1,6 +1,6 @@
 import React, {useRef, useState} from 'react'
 
-function SensitiveButton({ onClick, children, className, tooltipText, disabled }) {
+function SensitiveButton({ onClick, children, className, tooltipText, disabled, ariaLabel }) {
     const [isTouched, setIsTouched] = useState(false)
 
     const _onTouchStart = (e) => {
@@ -29,6 +29,7 @@ function SensitiveButton({ onClick, children, className, tooltipText, disabled }
     return (
         <button className={`sensitive-button ${className}`}
                 data-tooltip={tooltipText}
+                aria-label={ariaLabel}
                 type={`button`}
                 disabled={disabled}
                 onTouchStart={_onTouchStart}

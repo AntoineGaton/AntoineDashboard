@@ -23,7 +23,7 @@
             "items": [
                 {
                     "icon": {
-                        "img": "images/pictures/place-1.png",
+                        "img": "images/pictures/place-1.webp",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -50,7 +50,7 @@
 
                 {
                     "icon": {
-                        "img": "images/pictures/place-2.png",
+                        "img": "images/pictures/place-2.webp",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
