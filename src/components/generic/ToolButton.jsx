@@ -12,7 +12,7 @@ function ToolButton({className, tooltip, icon, size, onClick, nav, color}) {
     const colorClass = `tool-button-color-` + color
 
     return (
-        <button data-tooltip={tooltip} className={`btn tool-button ${sizeClass} ${navClass} ${className} ${colorClass}`} onClick={onClick}>
+        <button data-tooltip={tooltip} aria-label={tooltip} className={`btn tool-button ${sizeClass} ${navClass} ${className} ${colorClass}`} onClick={onClick}>
             <div className={`tool-button-content`}>
                 <FaIcon iconName={icon}/>
             </div>

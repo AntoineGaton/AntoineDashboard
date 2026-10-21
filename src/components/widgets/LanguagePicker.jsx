@@ -31,6 +31,7 @@ function LanguagePicker({shrink}) {
                                 onOptionSelected={_onOptionSelected}
                                 size={2}
                                 tooltip={selectedLanguage.name}
+                                ariaLabel={`Language: ${selectedLanguage.name}`}
                                 alwaysForceDropdown={true}
                                 shrink={shrink}/>
             )}

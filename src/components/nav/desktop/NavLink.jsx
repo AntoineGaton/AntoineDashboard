@@ -10,6 +10,7 @@ function NavLink({ shrink, label, icon, size, className, rounded, selected, disa
     return (
         <SensitiveButton className={`nav-link ${utils.strIf(rounded, `nav-link-rounded`)}`}
                          disabled={disabled}
+                         ariaLabel={label ? undefined : tooltip}
                          onClick={onClick}>
             <MenuItem shrink={shrink}
                       label={label}

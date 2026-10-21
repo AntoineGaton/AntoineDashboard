@@ -45,10 +45,11 @@ function Portfolio() {
                 </div>
 
                 <div className={`content-wrapper`}>
-                    <div className={`content`}>
+                    <main className={`content`}>
+                        <h1 className={`visually-hidden`}>Antoine Gaton</h1>
                         <NavHeaderMobile/>
                         <MainSlider/>
-                    </div>
+                    </main>
                 </div>
 
                 <NavPillsFixed/>

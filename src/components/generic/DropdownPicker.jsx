@@ -3,7 +3,7 @@ import {Dropdown} from 'react-bootstrap'
 import MenuItem from "/src/components/generic/MenuItem.jsx"
 import "./DropdownPicker.scss"
 
-function DropdownPicker({availableOptions, selectedOption, size, onOptionSelected, shrink, alwaysForceDropdown, tooltip}) {
+function DropdownPicker({availableOptions, selectedOption, size, onOptionSelected, shrink, alwaysForceDropdown, tooltip, ariaLabel}) {
     const shouldBehaveAsButton = !alwaysForceDropdown && availableOptions.length <= 1
 
     const _onToggleClicked = () => {
@@ -20,7 +20,7 @@ function DropdownPicker({availableOptions, selectedOption, size, onOptionSelecte
         <div className={`dropdown-picker-wrapper`}>
             {availableOptions.length > 0 && (
                 <Dropdown className={`dropdown-picker`}>
-                    <Dropdown.Toggle variant={`transparent`} className={`dropdown-picker-toggle`} onClickCapture={_onToggleClicked}>
+                    <Dropdown.Toggle variant={`transparent`} className={`dropdown-picker-toggle`} aria-label={ariaLabel || tooltip} onClickCapture={_onToggleClicked}>
                         <MenuItem label={selectedOption.label}
                                   icon={selectedOption.imgUrl || selectedOption.faIcon}
                                   faSuffix={!shouldBehaveAsButton ? "fa-solid fa-caret-down" : null}
