@@ -14,12 +14,11 @@ function ArticleList({ data }) {
     const {isMobileLayout} = useWindow()
     const [listItems, setListItems] = useState([])
 
-    const hasProgressItem = parser.hasAnyItemWithValue(items)
     const hasInfoItem = parser.hasAnyItemWithLocaleFieldNamed(items, 'info')
     const maxItems = isMobileLayout() ? 4 : 12
 
     let colClass = `col-12`
-    if(hasProgressItem && !hasInfoItem)
+    if(!hasInfoItem)
         colClass = `col-12 col-md-6 col-xxl-4`
     else if(hasInfoItem && listItems.length > 4)
         colClass = `col-12 col-xl-6`
